@@ -7,23 +7,23 @@ The basic modelling and problem description of the IHTP consists of three parts:
 
 This section shows the metamodel specified in section 3.1 in the paper.
 
-![](./metamodel/Ihtcmetamodel.pdf)
+![](./metamodel/Ihtcmetamodel.svg)
 
 ## GT Rules
 
 This section contains all GT rules for section 3.2 in the paper.
 
-![](./gt-rules/AssignPatientToRoom.pdf)
+![](./gt-rules/AssignPatientToRoom.svg)
 
-![](./gt-rules/ExtendPatientStay.pdf)
+![](./gt-rules/ExtendPatientStay.svg)
 
-![](./gt-rules/AssignSurgeonToOt.pdf)
+![](./gt-rules/AssignSurgeonToOt.svg)
 
-![](./gt-rules/FixOperationDay.pdf)
+![](./gt-rules/FixOperationDay.svg)
 
-![](./gt-rules/FixOperationTheater.pdf)
+![](./gt-rules/FixOperationTheater.svg)
 
-![](./gt-rules/AssignNurseToRoom.pdf)
+![](./gt-rules/AssignNurseToRoom.svg)
 
 ## OCL Constraints
 
