@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ihtcvirtualmetamodel:Root xmlns:ihtcvirtualmetamodel="platform:/resource/ihtcvirtualmetamodel/model/Ihtcvirtualmetamodel.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" period="21" xmi:version="2.0">
+  <nurses name="n00" skillLevel="1">
+    <rosters nurse="//@nurses.0" shiftNo="1" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="4" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="8" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="14" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="17" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="23" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="27" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="30" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="33" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="36" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="39" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="42" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="45" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="49" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="52" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="55" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="58" maxWorkload="12" />
+    <rosters nurse="//@nurses.0" shiftNo="61" maxWorkload="12" />
+  </nurses>
+  <nurses name="n01" skillLevel="2">
+    <rosters nurse="//@nurses.1" shiftNo="1" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="4" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="7" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="11" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="16" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="19" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="23" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="26" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="29" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="32" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="35" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="38" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="41" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="45" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="48" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="51" maxWorkload="5" />
+    <rosters nurse="//@nurses.1" shiftNo="54" maxWorkload="15" />
+    <rosters nurse="//@nurses.1" shiftNo="58" maxWorkload="15" />
+  </nurses>
+  <nurses name="n02" skillLevel="0">
+    <rosters nurse="//@nurses.2" shiftNo="2" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="6" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="11" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="14" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="17" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="21" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="25" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="28" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="31" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="34" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="37" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="40" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="44" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="47" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="51" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="55" maxWorkload="10" />
+    <rosters nurse="//@nurses.2" shiftNo="60" maxWorkload="10" />
+  </nurses>
+  <nurses name="n03" skillLevel="2">
+    <rosters nurse="//@nurses.3" shiftNo="1" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="4" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="7" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="10" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="14" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="17" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="20" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="23" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="26" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="30" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="33" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="36" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="40" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="45" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="49" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="52" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="55" maxWorkload="5" />
+    <rosters nurse="//@nurses.3" shiftNo="58" maxWorkload="15" />
+    <rosters nurse="//@nurses.3" shiftNo="61" maxWorkload="15" />
+  </nurses>
+  <nurses name="n04" skillLevel="2">
+    <rosters nurse="//@nurses.4" shiftNo="2" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="5" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="8" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="11" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="15" maxWorkload="5" />
+    <rosters nurse="//@nurses.4" shiftNo="18" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="22" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="27" maxWorkload="5" />
+    <rosters nurse="//@nurses.4" shiftNo="30" maxWorkload="5" />
+    <rosters nurse="//@nurses.4" shiftNo="34" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="37" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="41" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="45" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="48" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="51" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="54" maxWorkload="15" />
+    <rosters nurse="//@nurses.4" shiftNo="57" maxWorkload="15" />
+  </nurses>
+  <nurses name="n05" skillLevel="2">
+    <rosters nurse="//@nurses.5" shiftNo="3" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="6" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="10" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="15" maxWorkload="5" />
+    <rosters nurse="//@nurses.5" shiftNo="19" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="22" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="25" maxWorkload="5" />
+    <rosters nurse="//@nurses.5" shiftNo="28" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="32" maxWorkload="5" />
+    <rosters nurse="//@nurses.5" shiftNo="38" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="42" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="46" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="49" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="52" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="57" maxWorkload="15" />
+    <rosters nurse="//@nurses.5" shiftNo="61" maxWorkload="5" />
+  </nurses>
+  <nurses name="n06" skillLevel="0">
+    <rosters nurse="//@nurses.6" shiftNo="0" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="5" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="9" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="12" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="15" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="18" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="21" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="24" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="28" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="32" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="35" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="39" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="42" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="50" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="53" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="59" maxWorkload="10" />
+    <rosters nurse="//@nurses.6" shiftNo="62" maxWorkload="10" />
+  </nurses>
+  <nurses name="n07" skillLevel="2">
+    <rosters nurse="//@nurses.7" shiftNo="0" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="3" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="6" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="9" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="12" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="16" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="20" maxWorkload="5" />
+    <rosters nurse="//@nurses.7" shiftNo="23" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="27" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="31" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="36" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="43" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="46" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="50" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="55" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="59" maxWorkload="15" />
+    <rosters nurse="//@nurses.7" shiftNo="62" maxWorkload="15" />
+  </nurses>
+  <nurses name="n08" skillLevel="2">
+    <rosters nurse="//@nurses.8" shiftNo="0" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="7" maxWorkload="5" />
+    <rosters nurse="//@nurses.8" shiftNo="12" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="15" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="18" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="21" maxWorkload="5" />
+    <rosters nurse="//@nurses.8" shiftNo="24" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="29" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="33" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="37" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="40" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="43" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="47" maxWorkload="5" />
+    <rosters nurse="//@nurses.8" shiftNo="53" maxWorkload="15" />
+    <rosters nurse="//@nurses.8" shiftNo="60" maxWorkload="15" />
+  </nurses>
+  <nurses name="n09" skillLevel="0">
+    <rosters nurse="//@nurses.9" shiftNo="9" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="20" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="24" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="31" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="34" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="39" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="44" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="47" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="56" maxWorkload="10" />
+    <rosters nurse="//@nurses.9" shiftNo="60" maxWorkload="10" />
+  </nurses>
+  <nurses name="n10" skillLevel="2">
+    <rosters nurse="//@nurses.10" shiftNo="7" maxWorkload="15" />
+    <rosters nurse="//@nurses.10" shiftNo="13" maxWorkload="15" />
+    <rosters nurse="//@nurses.10" shiftNo="20" maxWorkload="15" />
+    <rosters nurse="//@nurses.10" shiftNo="25" maxWorkload="15" />
+    <rosters nurse="//@nurses.10" shiftNo="44" maxWorkload="15" />
+    <rosters nurse="//@nurses.10" shiftNo="56" maxWorkload="15" />
+  </nurses>
+  <nurses name="n11" skillLevel="0">
+    <rosters nurse="//@nurses.11" shiftNo="13" maxWorkload="10" />
+    <rosters nurse="//@nurses.11" shiftNo="21" maxWorkload="10" />
+  </nurses>
+  <nurses name="n12" skillLevel="2">
+    <rosters nurse="//@nurses.12" shiftNo="13" maxWorkload="15" />
+  </nurses>
+  <rooms name="r0" beds="3" incompatiblePatients="//@patients.47">
+    <shifts room="//@rooms.0" shiftNo="0" next="//@rooms.0/@shifts.1" derivedWorkloads="//@patients.2/@workloads.0 //@patients.6/@workloads.0" />
+    <shifts prev="//@rooms.0/@shifts.0" room="//@rooms.0" shiftNo="1" next="//@rooms.0/@shifts.2" derivedWorkloads="//@patients.2/@workloads.1 //@patients.6/@workloads.1" />
+    <shifts prev="//@rooms.0/@shifts.1" room="//@rooms.0" shiftNo="2" next="//@rooms.0/@shifts.3" derivedWorkloads="//@patients.2/@workloads.2 //@patients.6/@workloads.2" />
+    <shifts prev="//@rooms.0/@shifts.2" room="//@rooms.0" shiftNo="3" next="//@rooms.0/@shifts.4" derivedWorkloads="//@patients.2/@workloads.3 //@patients.6/@workloads.3" />
+    <shifts prev="//@rooms.0/@shifts.3" room="//@rooms.0" shiftNo="4" next="//@rooms.0/@shifts.5" derivedWorkloads="//@patients.2/@workloads.4 //@patients.6/@workloads.4" />
+    <shifts prev="//@rooms.0/@shifts.4" room="//@rooms.0" shiftNo="5" next="//@rooms.0/@shifts.6" derivedWorkloads="//@patients.2/@workloads.5 //@patients.6/@workloads.5" />
+    <shifts prev="//@rooms.0/@shifts.5" room="//@rooms.0" shiftNo="6" next="//@rooms.0/@shifts.7" derivedWorkloads="//@patients.2/@workloads.6 //@patients.6/@workloads.6" />
+    <shifts prev="//@rooms.0/@shifts.6" room="//@rooms.0" shiftNo="7" next="//@rooms.0/@shifts.8" derivedWorkloads="//@patients.2/@workloads.7 //@patients.6/@workloads.7" />
+    <shifts prev="//@rooms.0/@shifts.7" room="//@rooms.0" shiftNo="8" next="//@rooms.0/@shifts.9" derivedWorkloads="//@patients.2/@workloads.8 //@patients.6/@workloads.8" />
+    <shifts prev="//@rooms.0/@shifts.8" room="//@rooms.0" shiftNo="9" next="//@rooms.0/@shifts.10" derivedWorkloads="//@patients.2/@workloads.9 //@patients.6/@workloads.9" />
+    <shifts prev="//@rooms.0/@shifts.9" room="//@rooms.0" shiftNo="10" next="//@rooms.0/@shifts.11" derivedWorkloads="//@patients.2/@workloads.10 //@patients.6/@workloads.10" />
+    <shifts prev="//@rooms.0/@shifts.10" room="//@rooms.0" shiftNo="11" next="//@rooms.0/@shifts.12" derivedWorkloads="//@patients.2/@workloads.11 //@patients.6/@workloads.11" />
+    <shifts prev="//@rooms.0/@shifts.11" room="//@rooms.0" shiftNo="12" next="//@rooms.0/@shifts.13" derivedWorkloads="//@patients.2/@workloads.12 //@patients.6/@workloads.12" />
+    <shifts prev="//@rooms.0/@shifts.12" room="//@rooms.0" shiftNo="13" next="//@rooms.0/@shifts.14" derivedWorkloads="//@patients.2/@workloads.13 //@patients.6/@workloads.13" />
+    <shifts prev="//@rooms.0/@shifts.13" room="//@rooms.0" shiftNo="14" next="//@rooms.0/@shifts.15" derivedWorkloads="//@patients.2/@workloads.14 //@patients.6/@workloads.14" />
+    <shifts prev="//@rooms.0/@shifts.14" room="//@rooms.0" shiftNo="15" next="//@rooms.0/@shifts.16" />
+    <shifts prev="//@rooms.0/@shifts.15" room="//@rooms.0" shiftNo="16" next="//@rooms.0/@shifts.17" />
+    <shifts prev="//@rooms.0/@shifts.16" room="//@rooms.0" shiftNo="17" next="//@rooms.0/@shifts.18" />
+    <shifts prev="//@rooms.0/@shifts.17" room="//@rooms.0" shiftNo="18" next="//@rooms.0/@shifts.19" />
+    <shifts prev="//@rooms.0/@shifts.18" room="//@rooms.0" shiftNo="19" next="//@rooms.0/@shifts.20" />
+    <shifts prev="//@rooms.0/@shifts.19" room="//@rooms.0" shiftNo="20" next="//@rooms.0/@shifts.21" />
+    <shifts prev="//@rooms.0/@shifts.20" room="//@rooms.0" shiftNo="21" next="//@rooms.0/@shifts.22" />
+    <shifts prev="//@rooms.0/@shifts.21" room="//@rooms.0" shiftNo="22" next="//@rooms.0/@shifts.23" />
+    <shifts prev="//@rooms.0/@shifts.22" room="//@rooms.0" shiftNo="23" next="//@rooms.0/@shifts.24" />
+    <shifts prev="//@rooms.0/@shifts.23" room="//@rooms.0" shiftNo="24" next="//@rooms.0/@shifts.25" />
+    <shifts prev="//@rooms.0/@shifts.24" room="//@rooms.0" shiftNo="25" next="//@rooms.0/@shifts.26" />
+    <shifts prev="//@rooms.0/@shifts.25" room="//@rooms.0" shiftNo="26" next="//@rooms.0/@shifts.27" />
+    <shifts prev="//@rooms.0/@shifts.26" room="//@rooms.0" shiftNo="27" next="//@rooms.0/@shifts.28" />
+    <shifts prev="//@rooms.0/@shifts.27" room="//@rooms.0" shiftNo="28" next="//@rooms.0/@shifts.29" />
+    <shifts prev="//@rooms.0/@shifts.28" room="//@rooms.0" shiftNo="29" next="//@rooms.0/@shifts.30" />
+    <shifts prev="//@rooms.0/@shifts.29" room="//@rooms.0" shiftNo="30" next="//@rooms.0/@shifts.31" />
+    <shifts prev="//@rooms.0/@shifts.30" room="//@rooms.0" shiftNo="31" next="//@rooms.0/@shifts.32" />
+    <shifts prev="//@rooms.0/@shifts.31" room="//@rooms.0" shiftNo="32" next="//@rooms.0/@shifts.33" />
+    <shifts prev="//@rooms.0/@shifts.32" room="//@rooms.0" shiftNo="33" next="//@rooms.0/@shifts.34" />
+    <shifts prev="//@rooms.0/@shifts.33" room="//@rooms.0" shiftNo="34" next="//@rooms.0/@shifts.35" />
+    <shifts prev="//@rooms.0/@shifts.34" room="//@rooms.0" shiftNo="35" next="//@rooms.0/@shifts.36" />
+    <shifts prev="//@rooms.0/@shifts.35" room="//@rooms.0" shiftNo="36" next="//@rooms.0/@shifts.37" />
+    <shifts prev="//@rooms.0/@shifts.36" room="//@rooms.0" shiftNo="37" next="//@rooms.0/@shifts.38" />
+    <shifts prev="//@rooms.0/@shifts.37" room="//@rooms.0" shiftNo="38" next="//@rooms.0/@shifts.39" />
+    <shifts prev="//@rooms.0/@shifts.38" room="//@rooms.0" shiftNo="39" next="//@rooms.0/@shifts.40" />
+    <shifts prev="//@rooms.0/@shifts.39" room="//@rooms.0" shiftNo="40" next="//@rooms.0/@shifts.41" />
+    <shifts prev="//@rooms.0/@shifts.40" room="//@rooms.0" shiftNo="41" next="//@rooms.0/@shifts.42" />
+    <shifts prev="//@rooms.0/@shifts.41" room="//@rooms.0" shiftNo="42" next="//@rooms.0/@shifts.43" />
+    <shifts prev="//@rooms.0/@shifts.42" room="//@rooms.0" shiftNo="43" next="//@rooms.0/@shifts.44" />
+    <shifts prev="//@rooms.0/@shifts.43" room="//@rooms.0" shiftNo="44" next="//@rooms.0/@shifts.45" />
+    <shifts prev="//@rooms.0/@shifts.44" room="//@rooms.0" shiftNo="45" next="//@rooms.0/@shifts.46" />
+    <shifts prev="//@rooms.0/@shifts.45" room="//@rooms.0" shiftNo="46" next="//@rooms.0/@shifts.47" />
+    <shifts prev="//@rooms.0/@shifts.46" room="//@rooms.0" shiftNo="47" next="//@rooms.0/@shifts.48" />
+    <shifts prev="//@rooms.0/@shifts.47" room="//@rooms.0" shiftNo="48" next="//@rooms.0/@shifts.49" />
+    <shifts prev="//@rooms.0/@shifts.48" room="//@rooms.0" shiftNo="49" next="//@rooms.0/@shifts.50" />
+    <shifts prev="//@rooms.0/@shifts.49" room="//@rooms.0" shiftNo="50" next="//@rooms.0/@shifts.51" />
+    <shifts prev="//@rooms.0/@shifts.50" room="//@rooms.0" shiftNo="51" next="//@rooms.0/@shifts.52" />
+    <shifts prev="//@rooms.0/@shifts.51" room="//@rooms.0" shiftNo="52" next="//@rooms.0/@shifts.53" />
+    <shifts prev="//@rooms.0/@shifts.52" room="//@rooms.0" shiftNo="53" next="//@rooms.0/@shifts.54" />
+    <shifts prev="//@rooms.0/@shifts.53" room="//@rooms.0" shiftNo="54" next="//@rooms.0/@shifts.55" />
+    <shifts prev="//@rooms.0/@shifts.54" room="//@rooms.0" shiftNo="55" next="//@rooms.0/@shifts.56" />
+    <shifts prev="//@rooms.0/@shifts.55" room="//@rooms.0" shiftNo="56" next="//@rooms.0/@shifts.57" />
+    <shifts prev="//@rooms.0/@shifts.56" room="//@rooms.0" shiftNo="57" next="//@rooms.0/@shifts.58" />
+    <shifts prev="//@rooms.0/@shifts.57" room="//@rooms.0" shiftNo="58" next="//@rooms.0/@shifts.59" />
+    <shifts prev="//@rooms.0/@shifts.58" room="//@rooms.0" shiftNo="59" next="//@rooms.0/@shifts.60" />
+    <shifts prev="//@rooms.0/@shifts.59" room="//@rooms.0" shiftNo="60" next="//@rooms.0/@shifts.61" />
+    <shifts prev="//@rooms.0/@shifts.60" room="//@rooms.0" shiftNo="61" next="//@rooms.0/@shifts.62" />
+    <shifts prev="//@rooms.0/@shifts.61" room="//@rooms.0" shiftNo="62" />
+  </rooms>
+  <rooms name="r1" beds="2" incompatiblePatients="//@patients.13 //@patients.30 //@patients.33 //@patients.40 //@patients.42 //@patients.48">
+    <shifts room="//@rooms.1" shiftNo="0" next="//@rooms.1/@shifts.1" derivedWorkloads="//@patients.1/@workloads.0 //@patients.5/@workloads.0" />
+    <shifts prev="//@rooms.1/@shifts.0" room="//@rooms.1" shiftNo="1" next="//@rooms.1/@shifts.2" derivedWorkloads="//@patients.1/@workloads.1 //@patients.5/@workloads.1" />
+    <shifts prev="//@rooms.1/@shifts.1" room="//@rooms.1" shiftNo="2" next="//@rooms.1/@shifts.3" derivedWorkloads="//@patients.1/@workloads.2 //@patients.5/@workloads.2" />
+    <shifts prev="//@rooms.1/@shifts.2" room="//@rooms.1" shiftNo="3" next="//@rooms.1/@shifts.4" derivedWorkloads="//@patients.5/@workloads.3" />
+    <shifts prev="//@rooms.1/@shifts.3" room="//@rooms.1" shiftNo="4" next="//@rooms.1/@shifts.5" derivedWorkloads="//@patients.5/@workloads.4" />
+    <shifts prev="//@rooms.1/@shifts.4" room="//@rooms.1" shiftNo="5" next="//@rooms.1/@shifts.6" derivedWorkloads="//@patients.5/@workloads.5" />
+    <shifts prev="//@rooms.1/@shifts.5" room="//@rooms.1" shiftNo="6" next="//@rooms.1/@shifts.7" derivedWorkloads="//@patients.5/@workloads.6" />
+    <shifts prev="//@rooms.1/@shifts.6" room="//@rooms.1" shiftNo="7" next="//@rooms.1/@shifts.8" derivedWorkloads="//@patients.5/@workloads.7" />
+    <shifts prev="//@rooms.1/@shifts.7" room="//@rooms.1" shiftNo="8" next="//@rooms.1/@shifts.9" derivedWorkloads="//@patients.5/@workloads.8" />
+    <shifts prev="//@rooms.1/@shifts.8" room="//@rooms.1" shiftNo="9" next="//@rooms.1/@shifts.10" derivedWorkloads="//@patients.5/@workloads.9" />
+    <shifts prev="//@rooms.1/@shifts.9" room="//@rooms.1" shiftNo="10" next="//@rooms.1/@shifts.11" derivedWorkloads="//@patients.5/@workloads.10" />
+    <shifts prev="//@rooms.1/@shifts.10" room="//@rooms.1" shiftNo="11" next="//@rooms.1/@shifts.12" derivedWorkloads="//@patients.5/@workloads.11" />
+    <shifts prev="//@rooms.1/@shifts.11" room="//@rooms.1" shiftNo="12" next="//@rooms.1/@shifts.13" />
+    <shifts prev="//@rooms.1/@shifts.12" room="//@rooms.1" shiftNo="13" next="//@rooms.1/@shifts.14" />
+    <shifts prev="//@rooms.1/@shifts.13" room="//@rooms.1" shiftNo="14" next="//@rooms.1/@shifts.15" />
+    <shifts prev="//@rooms.1/@shifts.14" room="//@rooms.1" shiftNo="15" next="//@rooms.1/@shifts.16" />
+    <shifts prev="//@rooms.1/@shifts.15" room="//@rooms.1" shiftNo="16" next="//@rooms.1/@shifts.17" />
+    <shifts prev="//@rooms.1/@shifts.16" room="//@rooms.1" shiftNo="17" next="//@rooms.1/@shifts.18" />
+    <shifts prev="//@rooms.1/@shifts.17" room="//@rooms.1" shiftNo="18" next="//@rooms.1/@shifts.19" />
+    <shifts prev="//@rooms.1/@shifts.18" room="//@rooms.1" shiftNo="19" next="//@rooms.1/@shifts.20" />
+    <shifts prev="//@rooms.1/@shifts.19" room="//@rooms.1" shiftNo="20" next="//@rooms.1/@shifts.21" />
+    <shifts prev="//@rooms.1/@shifts.20" room="//@rooms.1" shiftNo="21" next="//@rooms.1/@shifts.22" />
+    <shifts prev="//@rooms.1/@shifts.21" room="//@rooms.1" shiftNo="22" next="//@rooms.1/@shifts.23" />
+    <shifts prev="//@rooms.1/@shifts.22" room="//@rooms.1" shiftNo="23" next="//@rooms.1/@shifts.24" />
+    <shifts prev="//@rooms.1/@shifts.23" room="//@rooms.1" shiftNo="24" next="//@rooms.1/@shifts.25" />
+    <shifts prev="//@rooms.1/@shifts.24" room="//@rooms.1" shiftNo="25" next="//@rooms.1/@shifts.26" />
+    <shifts prev="//@rooms.1/@shifts.25" room="//@rooms.1" shiftNo="26" next="//@rooms.1/@shifts.27" />
+    <shifts prev="//@rooms.1/@shifts.26" room="//@rooms.1" shiftNo="27" next="//@rooms.1/@shifts.28" />
+    <shifts prev="//@rooms.1/@shifts.27" room="//@rooms.1" shiftNo="28" next="//@rooms.1/@shifts.29" />
+    <shifts prev="//@rooms.1/@shifts.28" room="//@rooms.1" shiftNo="29" next="//@rooms.1/@shifts.30" />
+    <shifts prev="//@rooms.1/@shifts.29" room="//@rooms.1" shiftNo="30" next="//@rooms.1/@shifts.31" />
+    <shifts prev="//@rooms.1/@shifts.30" room="//@rooms.1" shiftNo="31" next="//@rooms.1/@shifts.32" />
+    <shifts prev="//@rooms.1/@shifts.31" room="//@rooms.1" shiftNo="32" next="//@rooms.1/@shifts.33" />
+    <shifts prev="//@rooms.1/@shifts.32" room="//@rooms.1" shiftNo="33" next="//@rooms.1/@shifts.34" />
+    <shifts prev="//@rooms.1/@shifts.33" room="//@rooms.1" shiftNo="34" next="//@rooms.1/@shifts.35" />
+    <shifts prev="//@rooms.1/@shifts.34" room="//@rooms.1" shiftNo="35" next="//@rooms.1/@shifts.36" />
+    <shifts prev="//@rooms.1/@shifts.35" room="//@rooms.1" shiftNo="36" next="//@rooms.1/@shifts.37" />
+    <shifts prev="//@rooms.1/@shifts.36" room="//@rooms.1" shiftNo="37" next="//@rooms.1/@shifts.38" />
+    <shifts prev="//@rooms.1/@shifts.37" room="//@rooms.1" shiftNo="38" next="//@rooms.1/@shifts.39" />
+    <shifts prev="//@rooms.1/@shifts.38" room="//@rooms.1" shiftNo="39" next="//@rooms.1/@shifts.40" />
+    <shifts prev="//@rooms.1/@shifts.39" room="//@rooms.1" shiftNo="40" next="//@rooms.1/@shifts.41" />
+    <shifts prev="//@rooms.1/@shifts.40" room="//@rooms.1" shiftNo="41" next="//@rooms.1/@shifts.42" />
+    <shifts prev="//@rooms.1/@shifts.41" room="//@rooms.1" shiftNo="42" next="//@rooms.1/@shifts.43" />
+    <shifts prev="//@rooms.1/@shifts.42" room="//@rooms.1" shiftNo="43" next="//@rooms.1/@shifts.44" />
+    <shifts prev="//@rooms.1/@shifts.43" room="//@rooms.1" shiftNo="44" next="//@rooms.1/@shifts.45" />
+    <shifts prev="//@rooms.1/@shifts.44" room="//@rooms.1" shiftNo="45" next="//@rooms.1/@shifts.46" />
+    <shifts prev="//@rooms.1/@shifts.45" room="//@rooms.1" shiftNo="46" next="//@rooms.1/@shifts.47" />
+    <shifts prev="//@rooms.1/@shifts.46" room="//@rooms.1" shiftNo="47" next="//@rooms.1/@shifts.48" />
+    <shifts prev="//@rooms.1/@shifts.47" room="//@rooms.1" shiftNo="48" next="//@rooms.1/@shifts.49" />
+    <shifts prev="//@rooms.1/@shifts.48" room="//@rooms.1" shiftNo="49" next="//@rooms.1/@shifts.50" />
+    <shifts prev="//@rooms.1/@shifts.49" room="//@rooms.1" shiftNo="50" next="//@rooms.1/@shifts.51" />
+    <shifts prev="//@rooms.1/@shifts.50" room="//@rooms.1" shiftNo="51" next="//@rooms.1/@shifts.52" />
+    <shifts prev="//@rooms.1/@shifts.51" room="//@rooms.1" shiftNo="52" next="//@rooms.1/@shifts.53" />
+    <shifts prev="//@rooms.1/@shifts.52" room="//@rooms.1" shiftNo="53" next="//@rooms.1/@shifts.54" />
+    <shifts prev="//@rooms.1/@shifts.53" room="//@rooms.1" shiftNo="54" next="//@rooms.1/@shifts.55" />
+    <shifts prev="//@rooms.1/@shifts.54" room="//@rooms.1" shiftNo="55" next="//@rooms.1/@shifts.56" />
+    <shifts prev="//@rooms.1/@shifts.55" room="//@rooms.1" shiftNo="56" next="//@rooms.1/@shifts.57" />
+    <shifts prev="//@rooms.1/@shifts.56" room="//@rooms.1" shiftNo="57" next="//@rooms.1/@shifts.58" />
+    <shifts prev="//@rooms.1/@shifts.57" room="//@rooms.1" shiftNo="58" next="//@rooms.1/@shifts.59" />
+    <shifts prev="//@rooms.1/@shifts.58" room="//@rooms.1" shiftNo="59" next="//@rooms.1/@shifts.60" />
+    <shifts prev="//@rooms.1/@shifts.59" room="//@rooms.1" shiftNo="60" next="//@rooms.1/@shifts.61" />
+    <shifts prev="//@rooms.1/@shifts.60" room="//@rooms.1" shiftNo="61" next="//@rooms.1/@shifts.62" />
+    <shifts prev="//@rooms.1/@shifts.61" room="//@rooms.1" shiftNo="62" />
+  </rooms>
+  <rooms name="r2" beds="3" incompatiblePatients="//@patients.24 //@patients.25 //@patients.33 //@patients.46 //@patients.48">
+    <shifts room="//@rooms.2" shiftNo="0" next="//@rooms.2/@shifts.1" derivedWorkloads="//@patients.3/@workloads.0" />
+    <shifts prev="//@rooms.2/@shifts.0" room="//@rooms.2" shiftNo="1" next="//@rooms.2/@shifts.2" derivedWorkloads="//@patients.3/@workloads.1" />
+    <shifts prev="//@rooms.2/@shifts.1" room="//@rooms.2" shiftNo="2" next="//@rooms.2/@shifts.3" derivedWorkloads="//@patients.3/@workloads.2" />
+    <shifts prev="//@rooms.2/@shifts.2" room="//@rooms.2" shiftNo="3" next="//@rooms.2/@shifts.4" derivedWorkloads="//@patients.3/@workloads.3" />
+    <shifts prev="//@rooms.2/@shifts.3" room="//@rooms.2" shiftNo="4" next="//@rooms.2/@shifts.5" derivedWorkloads="//@patients.3/@workloads.4" />
+    <shifts prev="//@rooms.2/@shifts.4" room="//@rooms.2" shiftNo="5" next="//@rooms.2/@shifts.6" derivedWorkloads="//@patients.3/@workloads.5" />
+    <shifts prev="//@rooms.2/@shifts.5" room="//@rooms.2" shiftNo="6" next="//@rooms.2/@shifts.7" />
+    <shifts prev="//@rooms.2/@shifts.6" room="//@rooms.2" shiftNo="7" next="//@rooms.2/@shifts.8" />
+    <shifts prev="//@rooms.2/@shifts.7" room="//@rooms.2" shiftNo="8" next="//@rooms.2/@shifts.9" />
+    <shifts prev="//@rooms.2/@shifts.8" room="//@rooms.2" shiftNo="9" next="//@rooms.2/@shifts.10" />
+    <shifts prev="//@rooms.2/@shifts.9" room="//@rooms.2" shiftNo="10" next="//@rooms.2/@shifts.11" />
+    <shifts prev="//@rooms.2/@shifts.10" room="//@rooms.2" shiftNo="11" next="//@rooms.2/@shifts.12" />
+    <shifts prev="//@rooms.2/@shifts.11" room="//@rooms.2" shiftNo="12" next="//@rooms.2/@shifts.13" />
+    <shifts prev="//@rooms.2/@shifts.12" room="//@rooms.2" shiftNo="13" next="//@rooms.2/@shifts.14" />
+    <shifts prev="//@rooms.2/@shifts.13" room="//@rooms.2" shiftNo="14" next="//@rooms.2/@shifts.15" />
+    <shifts prev="//@rooms.2/@shifts.14" room="//@rooms.2" shiftNo="15" next="//@rooms.2/@shifts.16" />
+    <shifts prev="//@rooms.2/@shifts.15" room="//@rooms.2" shiftNo="16" next="//@rooms.2/@shifts.17" />
+    <shifts prev="//@rooms.2/@shifts.16" room="//@rooms.2" shiftNo="17" next="//@rooms.2/@shifts.18" />
+    <shifts prev="//@rooms.2/@shifts.17" room="//@rooms.2" shiftNo="18" next="//@rooms.2/@shifts.19" />
+    <shifts prev="//@rooms.2/@shifts.18" room="//@rooms.2" shiftNo="19" next="//@rooms.2/@shifts.20" />
+    <shifts prev="//@rooms.2/@shifts.19" room="//@rooms.2" shiftNo="20" next="//@rooms.2/@shifts.21" />
+    <shifts prev="//@rooms.2/@shifts.20" room="//@rooms.2" shiftNo="21" next="//@rooms.2/@shifts.22" />
+    <shifts prev="//@rooms.2/@shifts.21" room="//@rooms.2" shiftNo="22" next="//@rooms.2/@shifts.23" />
+    <shifts prev="//@rooms.2/@shifts.22" room="//@rooms.2" shiftNo="23" next="//@rooms.2/@shifts.24" />
+    <shifts prev="//@rooms.2/@shifts.23" room="//@rooms.2" shiftNo="24" next="//@rooms.2/@shifts.25" />
+    <shifts prev="//@rooms.2/@shifts.24" room="//@rooms.2" shiftNo="25" next="//@rooms.2/@shifts.26" />
+    <shifts prev="//@rooms.2/@shifts.25" room="//@rooms.2" shiftNo="26" next="//@rooms.2/@shifts.27" />
+    <shifts prev="//@rooms.2/@shifts.26" room="//@rooms.2" shiftNo="27" next="//@rooms.2/@shifts.28" />
+    <shifts prev="//@rooms.2/@shifts.27" room="//@rooms.2" shiftNo="28" next="//@rooms.2/@shifts.29" />
+    <shifts prev="//@rooms.2/@shifts.28" room="//@rooms.2" shiftNo="29" next="//@rooms.2/@shifts.30" />
+    <shifts prev="//@rooms.2/@shifts.29" room="//@rooms.2" shiftNo="30" next="//@rooms.2/@shifts.31" />
+    <shifts prev="//@rooms.2/@shifts.30" room="//@rooms.2" shiftNo="31" next="//@rooms.2/@shifts.32" />
+    <shifts prev="//@rooms.2/@shifts.31" room="//@rooms.2" shiftNo="32" next="//@rooms.2/@shifts.33" />
+    <shifts prev="//@rooms.2/@shifts.32" room="//@rooms.2" shiftNo="33" next="//@rooms.2/@shifts.34" />
+    <shifts prev="//@rooms.2/@shifts.33" room="//@rooms.2" shiftNo="34" next="//@rooms.2/@shifts.35" />
+    <shifts prev="//@rooms.2/@shifts.34" room="//@rooms.2" shiftNo="35" next="//@rooms.2/@shifts.36" />
+    <shifts prev="//@rooms.2/@shifts.35" room="//@rooms.2" shiftNo="36" next="//@rooms.2/@shifts.37" />
+    <shifts prev="//@rooms.2/@shifts.36" room="//@rooms.2" shiftNo="37" next="//@rooms.2/@shifts.38" />
+    <shifts prev="//@rooms.2/@shifts.37" room="//@rooms.2" shiftNo="38" next="//@rooms.2/@shifts.39" />
+    <shifts prev="//@rooms.2/@shifts.38" room="//@rooms.2" shiftNo="39" next="//@rooms.2/@shifts.40" />
+    <shifts prev="//@rooms.2/@shifts.39" room="//@rooms.2" shiftNo="40" next="//@rooms.2/@shifts.41" />
+    <shifts prev="//@rooms.2/@shifts.40" room="//@rooms.2" shiftNo="41" next="//@rooms.2/@shifts.42" />
+    <shifts prev="//@rooms.2/@shifts.41" room="//@rooms.2" shiftNo="42" next="//@rooms.2/@shifts.43" />
+    <shifts prev="//@rooms.2/@shifts.42" room="//@rooms.2" shiftNo="43" next="//@rooms.2/@shifts.44" />
+    <shifts prev="//@rooms.2/@shifts.43" room="//@rooms.2" shiftNo="44" next="//@rooms.2/@shifts.45" />
+    <shifts prev="//@rooms.2/@shifts.44" room="//@rooms.2" shiftNo="45" next="//@rooms.2/@shifts.46" />
+    <shifts prev="//@rooms.2/@shifts.45" room="//@rooms.2" shiftNo="46" next="//@rooms.2/@shifts.47" />
+    <shifts prev="//@rooms.2/@shifts.46" room="//@rooms.2" shiftNo="47" next="//@rooms.2/@shifts.48" />
+    <shifts prev="//@rooms.2/@shifts.47" room="//@rooms.2" shiftNo="48" next="//@rooms.2/@shifts.49" />
+    <shifts prev="//@rooms.2/@shifts.48" room="//@rooms.2" shiftNo="49" next="//@rooms.2/@shifts.50" />
+    <shifts prev="//@rooms.2/@shifts.49" room="//@rooms.2" shiftNo="50" next="//@rooms.2/@shifts.51" />
+    <shifts prev="//@rooms.2/@shifts.50" room="//@rooms.2" shiftNo="51" next="//@rooms.2/@shifts.52" />
+    <shifts prev="//@rooms.2/@shifts.51" room="//@rooms.2" shiftNo="52" next="//@rooms.2/@shifts.53" />
+    <shifts prev="//@rooms.2/@shifts.52" room="//@rooms.2" shiftNo="53" next="//@rooms.2/@shifts.54" />
+    <shifts prev="//@rooms.2/@shifts.53" room="//@rooms.2" shiftNo="54" next="//@rooms.2/@shifts.55" />
+    <shifts prev="//@rooms.2/@shifts.54" room="//@rooms.2" shiftNo="55" next="//@rooms.2/@shifts.56" />
+    <shifts prev="//@rooms.2/@shifts.55" room="//@rooms.2" shiftNo="56" next="//@rooms.2/@shifts.57" />
+    <shifts prev="//@rooms.2/@shifts.56" room="//@rooms.2" shiftNo="57" next="//@rooms.2/@shifts.58" />
+    <shifts prev="//@rooms.2/@shifts.57" room="//@rooms.2" shiftNo="58" next="//@rooms.2/@shifts.59" />
+    <shifts prev="//@rooms.2/@shifts.58" room="//@rooms.2" shiftNo="59" next="//@rooms.2/@shifts.60" />
+    <shifts prev="//@rooms.2/@shifts.59" room="//@rooms.2" shiftNo="60" next="//@rooms.2/@shifts.61" />
+    <shifts prev="//@rooms.2/@shifts.60" room="//@rooms.2" shiftNo="61" next="//@rooms.2/@shifts.62" />
+    <shifts prev="//@rooms.2/@shifts.61" room="//@rooms.2" shiftNo="62" />
+  </rooms>
+  <rooms name="r3" beds="3">
+    <shifts room="//@rooms.3" shiftNo="0" next="//@rooms.3/@shifts.1" derivedWorkloads="//@patients.4/@workloads.0" />
+    <shifts prev="//@rooms.3/@shifts.0" room="//@rooms.3" shiftNo="1" next="//@rooms.3/@shifts.2" derivedWorkloads="//@patients.4/@workloads.1" />
+    <shifts prev="//@rooms.3/@shifts.1" room="//@rooms.3" shiftNo="2" next="//@rooms.3/@shifts.3" derivedWorkloads="//@patients.4/@workloads.2" />
+    <shifts prev="//@rooms.3/@shifts.2" room="//@rooms.3" shiftNo="3" next="//@rooms.3/@shifts.4" derivedWorkloads="//@patients.4/@workloads.3" />
+    <shifts prev="//@rooms.3/@shifts.3" room="//@rooms.3" shiftNo="4" next="//@rooms.3/@shifts.5" derivedWorkloads="//@patients.4/@workloads.4" />
+    <shifts prev="//@rooms.3/@shifts.4" room="//@rooms.3" shiftNo="5" next="//@rooms.3/@shifts.6" derivedWorkloads="//@patients.4/@workloads.5" />
+    <shifts prev="//@rooms.3/@shifts.5" room="//@rooms.3" shiftNo="6" next="//@rooms.3/@shifts.7" />
+    <shifts prev="//@rooms.3/@shifts.6" room="//@rooms.3" shiftNo="7" next="//@rooms.3/@shifts.8" />
+    <shifts prev="//@rooms.3/@shifts.7" room="//@rooms.3" shiftNo="8" next="//@rooms.3/@shifts.9" />
+    <shifts prev="//@rooms.3/@shifts.8" room="//@rooms.3" shiftNo="9" next="//@rooms.3/@shifts.10" />
+    <shifts prev="//@rooms.3/@shifts.9" room="//@rooms.3" shiftNo="10" next="//@rooms.3/@shifts.11" />
+    <shifts prev="//@rooms.3/@shifts.10" room="//@rooms.3" shiftNo="11" next="//@rooms.3/@shifts.12" />
+    <shifts prev="//@rooms.3/@shifts.11" room="//@rooms.3" shiftNo="12" next="//@rooms.3/@shifts.13" />
+    <shifts prev="//@rooms.3/@shifts.12" room="//@rooms.3" shiftNo="13" next="//@rooms.3/@shifts.14" />
+    <shifts prev="//@rooms.3/@shifts.13" room="//@rooms.3" shiftNo="14" next="//@rooms.3/@shifts.15" />
+    <shifts prev="//@rooms.3/@shifts.14" room="//@rooms.3" shiftNo="15" next="//@rooms.3/@shifts.16" />
+    <shifts prev="//@rooms.3/@shifts.15" room="//@rooms.3" shiftNo="16" next="//@rooms.3/@shifts.17" />
+    <shifts prev="//@rooms.3/@shifts.16" room="//@rooms.3" shiftNo="17" next="//@rooms.3/@shifts.18" />
+    <shifts prev="//@rooms.3/@shifts.17" room="//@rooms.3" shiftNo="18" next="//@rooms.3/@shifts.19" />
+    <shifts prev="//@rooms.3/@shifts.18" room="//@rooms.3" shiftNo="19" next="//@rooms.3/@shifts.20" />
+    <shifts prev="//@rooms.3/@shifts.19" room="//@rooms.3" shiftNo="20" next="//@rooms.3/@shifts.21" />
+    <shifts prev="//@rooms.3/@shifts.20" room="//@rooms.3" shiftNo="21" next="//@rooms.3/@shifts.22" />
+    <shifts prev="//@rooms.3/@shifts.21" room="//@rooms.3" shiftNo="22" next="//@rooms.3/@shifts.23" />
+    <shifts prev="//@rooms.3/@shifts.22" room="//@rooms.3" shiftNo="23" next="//@rooms.3/@shifts.24" />
+    <shifts prev="//@rooms.3/@shifts.23" room="//@rooms.3" shiftNo="24" next="//@rooms.3/@shifts.25" />
+    <shifts prev="//@rooms.3/@shifts.24" room="//@rooms.3" shiftNo="25" next="//@rooms.3/@shifts.26" />
+    <shifts prev="//@rooms.3/@shifts.25" room="//@rooms.3" shiftNo="26" next="//@rooms.3/@shifts.27" />
+    <shifts prev="//@rooms.3/@shifts.26" room="//@rooms.3" shiftNo="27" next="//@rooms.3/@shifts.28" />
+    <shifts prev="//@rooms.3/@shifts.27" room="//@rooms.3" shiftNo="28" next="//@rooms.3/@shifts.29" />
+    <shifts prev="//@rooms.3/@shifts.28" room="//@rooms.3" shiftNo="29" next="//@rooms.3/@shifts.30" />
+    <shifts prev="//@rooms.3/@shifts.29" room="//@rooms.3" shiftNo="30" next="//@rooms.3/@shifts.31" />
+    <shifts prev="//@rooms.3/@shifts.30" room="//@rooms.3" shiftNo="31" next="//@rooms.3/@shifts.32" />
+    <shifts prev="//@rooms.3/@shifts.31" room="//@rooms.3" shiftNo="32" next="//@rooms.3/@shifts.33" />
+    <shifts prev="//@rooms.3/@shifts.32" room="//@rooms.3" shiftNo="33" next="//@rooms.3/@shifts.34" />
+    <shifts prev="//@rooms.3/@shifts.33" room="//@rooms.3" shiftNo="34" next="//@rooms.3/@shifts.35" />
+    <shifts prev="//@rooms.3/@shifts.34" room="//@rooms.3" shiftNo="35" next="//@rooms.3/@shifts.36" />
+    <shifts prev="//@rooms.3/@shifts.35" room="//@rooms.3" shiftNo="36" next="//@rooms.3/@shifts.37" />
+    <shifts prev="//@rooms.3/@shifts.36" room="//@rooms.3" shiftNo="37" next="//@rooms.3/@shifts.38" />
+    <shifts prev="//@rooms.3/@shifts.37" room="//@rooms.3" shiftNo="38" next="//@rooms.3/@shifts.39" />
+    <shifts prev="//@rooms.3/@shifts.38" room="//@rooms.3" shiftNo="39" next="//@rooms.3/@shifts.40" />
+    <shifts prev="//@rooms.3/@shifts.39" room="//@rooms.3" shiftNo="40" next="//@rooms.3/@shifts.41" />
+    <shifts prev="//@rooms.3/@shifts.40" room="//@rooms.3" shiftNo="41" next="//@rooms.3/@shifts.42" />
+    <shifts prev="//@rooms.3/@shifts.41" room="//@rooms.3" shiftNo="42" next="//@rooms.3/@shifts.43" />
+    <shifts prev="//@rooms.3/@shifts.42" room="//@rooms.3" shiftNo="43" next="//@rooms.3/@shifts.44" />
+    <shifts prev="//@rooms.3/@shifts.43" room="//@rooms.3" shiftNo="44" next="//@rooms.3/@shifts.45" />
+    <shifts prev="//@rooms.3/@shifts.44" room="//@rooms.3" shiftNo="45" next="//@rooms.3/@shifts.46" />
+    <shifts prev="//@rooms.3/@shifts.45" room="//@rooms.3" shiftNo="46" next="//@rooms.3/@shifts.47" />
+    <shifts prev="//@rooms.3/@shifts.46" room="//@rooms.3" shiftNo="47" next="//@rooms.3/@shifts.48" />
+    <shifts prev="//@rooms.3/@shifts.47" room="//@rooms.3" shiftNo="48" next="//@rooms.3/@shifts.49" />
+    <shifts prev="//@rooms.3/@shifts.48" room="//@rooms.3" shiftNo="49" next="//@rooms.3/@shifts.50" />
+    <shifts prev="//@rooms.3/@shifts.49" room="//@rooms.3" shiftNo="50" next="//@rooms.3/@shifts.51" />
+    <shifts prev="//@rooms.3/@shifts.50" room="//@rooms.3" shiftNo="51" next="//@rooms.3/@shifts.52" />
+    <shifts prev="//@rooms.3/@shifts.51" room="//@rooms.3" shiftNo="52" next="//@rooms.3/@shifts.53" />
+    <shifts prev="//@rooms.3/@shifts.52" room="//@rooms.3" shiftNo="53" next="//@rooms.3/@shifts.54" />
+    <shifts prev="//@rooms.3/@shifts.53" room="//@rooms.3" shiftNo="54" next="//@rooms.3/@shifts.55" />
+    <shifts prev="//@rooms.3/@shifts.54" room="//@rooms.3" shiftNo="55" next="//@rooms.3/@shifts.56" />
+    <shifts prev="//@rooms.3/@shifts.55" room="//@rooms.3" shiftNo="56" next="//@rooms.3/@shifts.57" />
+    <shifts prev="//@rooms.3/@shifts.56" room="//@rooms.3" shiftNo="57" next="//@rooms.3/@shifts.58" />
+    <shifts prev="//@rooms.3/@shifts.57" room="//@rooms.3" shiftNo="58" next="//@rooms.3/@shifts.59" />
+    <shifts prev="//@rooms.3/@shifts.58" room="//@rooms.3" shiftNo="59" next="//@rooms.3/@shifts.60" />
+    <shifts prev="//@rooms.3/@shifts.59" room="//@rooms.3" shiftNo="60" next="//@rooms.3/@shifts.61" />
+    <shifts prev="//@rooms.3/@shifts.60" room="//@rooms.3" shiftNo="61" next="//@rooms.3/@shifts.62" />
+    <shifts prev="//@rooms.3/@shifts.61" room="//@rooms.3" shiftNo="62" />
+  </rooms>
+  <rooms name="r4" beds="2" incompatiblePatients="//@patients.20 //@patients.32 //@patients.34 //@patients.46">
+    <shifts room="//@rooms.4" shiftNo="0" next="//@rooms.4/@shifts.1" derivedWorkloads="//@patients.0/@workloads.0" />
+    <shifts prev="//@rooms.4/@shifts.0" room="//@rooms.4" shiftNo="1" next="//@rooms.4/@shifts.2" derivedWorkloads="//@patients.0/@workloads.1" />
+    <shifts prev="//@rooms.4/@shifts.1" room="//@rooms.4" shiftNo="2" next="//@rooms.4/@shifts.3" derivedWorkloads="//@patients.0/@workloads.2" />
+    <shifts prev="//@rooms.4/@shifts.2" room="//@rooms.4" shiftNo="3" next="//@rooms.4/@shifts.4" derivedWorkloads="//@patients.0/@workloads.3" />
+    <shifts prev="//@rooms.4/@shifts.3" room="//@rooms.4" shiftNo="4" next="//@rooms.4/@shifts.5" derivedWorkloads="//@patients.0/@workloads.4" />
+    <shifts prev="//@rooms.4/@shifts.4" room="//@rooms.4" shiftNo="5" next="//@rooms.4/@shifts.6" derivedWorkloads="//@patients.0/@workloads.5" />
+    <shifts prev="//@rooms.4/@shifts.5" room="//@rooms.4" shiftNo="6" next="//@rooms.4/@shifts.7" derivedWorkloads="//@patients.0/@workloads.6" />
+    <shifts prev="//@rooms.4/@shifts.6" room="//@rooms.4" shiftNo="7" next="//@rooms.4/@shifts.8" derivedWorkloads="//@patients.0/@workloads.7" />
+    <shifts prev="//@rooms.4/@shifts.7" room="//@rooms.4" shiftNo="8" next="//@rooms.4/@shifts.9" derivedWorkloads="//@patients.0/@workloads.8" />
+    <shifts prev="//@rooms.4/@shifts.8" room="//@rooms.4" shiftNo="9" next="//@rooms.4/@shifts.10" derivedWorkloads="//@patients.0/@workloads.9" />
+    <shifts prev="//@rooms.4/@shifts.9" room="//@rooms.4" shiftNo="10" next="//@rooms.4/@shifts.11" derivedWorkloads="//@patients.0/@workloads.10" />
+    <shifts prev="//@rooms.4/@shifts.10" room="//@rooms.4" shiftNo="11" next="//@rooms.4/@shifts.12" derivedWorkloads="//@patients.0/@workloads.11" />
+    <shifts prev="//@rooms.4/@shifts.11" room="//@rooms.4" shiftNo="12" next="//@rooms.4/@shifts.13" />
+    <shifts prev="//@rooms.4/@shifts.12" room="//@rooms.4" shiftNo="13" next="//@rooms.4/@shifts.14" />
+    <shifts prev="//@rooms.4/@shifts.13" room="//@rooms.4" shiftNo="14" next="//@rooms.4/@shifts.15" />
+    <shifts prev="//@rooms.4/@shifts.14" room="//@rooms.4" shiftNo="15" next="//@rooms.4/@shifts.16" />
+    <shifts prev="//@rooms.4/@shifts.15" room="//@rooms.4" shiftNo="16" next="//@rooms.4/@shifts.17" />
+    <shifts prev="//@rooms.4/@shifts.16" room="//@rooms.4" shiftNo="17" next="//@rooms.4/@shifts.18" />
+    <shifts prev="//@rooms.4/@shifts.17" room="//@rooms.4" shiftNo="18" next="//@rooms.4/@shifts.19" />
+    <shifts prev="//@rooms.4/@shifts.18" room="//@rooms.4" shiftNo="19" next="//@rooms.4/@shifts.20" />
+    <shifts prev="//@rooms.4/@shifts.19" room="//@rooms.4" shiftNo="20" next="//@rooms.4/@shifts.21" />
+    <shifts prev="//@rooms.4/@shifts.20" room="//@rooms.4" shiftNo="21" next="//@rooms.4/@shifts.22" />
+    <shifts prev="//@rooms.4/@shifts.21" room="//@rooms.4" shiftNo="22" next="//@rooms.4/@shifts.23" />
+    <shifts prev="//@rooms.4/@shifts.22" room="//@rooms.4" shiftNo="23" next="//@rooms.4/@shifts.24" />
+    <shifts prev="//@rooms.4/@shifts.23" room="//@rooms.4" shiftNo="24" next="//@rooms.4/@shifts.25" />
+    <shifts prev="//@rooms.4/@shifts.24" room="//@rooms.4" shiftNo="25" next="//@rooms.4/@shifts.26" />
+    <shifts prev="//@rooms.4/@shifts.25" room="//@rooms.4" shiftNo="26" next="//@rooms.4/@shifts.27" />
+    <shifts prev="//@rooms.4/@shifts.26" room="//@rooms.4" shiftNo="27" next="//@rooms.4/@shifts.28" />
+    <shifts prev="//@rooms.4/@shifts.27" room="//@rooms.4" shiftNo="28" next="//@rooms.4/@shifts.29" />
+    <shifts prev="//@rooms.4/@shifts.28" room="//@rooms.4" shiftNo="29" next="//@rooms.4/@shifts.30" />
+    <shifts prev="//@rooms.4/@shifts.29" room="//@rooms.4" shiftNo="30" next="//@rooms.4/@shifts.31" />
+    <shifts prev="//@rooms.4/@shifts.30" room="//@rooms.4" shiftNo="31" next="//@rooms.4/@shifts.32" />
+    <shifts prev="//@rooms.4/@shifts.31" room="//@rooms.4" shiftNo="32" next="//@rooms.4/@shifts.33" />
+    <shifts prev="//@rooms.4/@shifts.32" room="//@rooms.4" shiftNo="33" next="//@rooms.4/@shifts.34" />
+    <shifts prev="//@rooms.4/@shifts.33" room="//@rooms.4" shiftNo="34" next="//@rooms.4/@shifts.35" />
+    <shifts prev="//@rooms.4/@shifts.34" room="//@rooms.4" shiftNo="35" next="//@rooms.4/@shifts.36" />
+    <shifts prev="//@rooms.4/@shifts.35" room="//@rooms.4" shiftNo="36" next="//@rooms.4/@shifts.37" />
+    <shifts prev="//@rooms.4/@shifts.36" room="//@rooms.4" shiftNo="37" next="//@rooms.4/@shifts.38" />
+    <shifts prev="//@rooms.4/@shifts.37" room="//@rooms.4" shiftNo="38" next="//@rooms.4/@shifts.39" />
+    <shifts prev="//@rooms.4/@shifts.38" room="//@rooms.4" shiftNo="39" next="//@rooms.4/@shifts.40" />
+    <shifts prev="//@rooms.4/@shifts.39" room="//@rooms.4" shiftNo="40" next="//@rooms.4/@shifts.41" />
+    <shifts prev="//@rooms.4/@shifts.40" room="//@rooms.4" shiftNo="41" next="//@rooms.4/@shifts.42" />
+    <shifts prev="//@rooms.4/@shifts.41" room="//@rooms.4" shiftNo="42" next="//@rooms.4/@shifts.43" />
+    <shifts prev="//@rooms.4/@shifts.42" room="//@rooms.4" shiftNo="43" next="//@rooms.4/@shifts.44" />
+    <shifts prev="//@rooms.4/@shifts.43" room="//@rooms.4" shiftNo="44" next="//@rooms.4/@shifts.45" />
+    <shifts prev="//@rooms.4/@shifts.44" room="//@rooms.4" shiftNo="45" next="//@rooms.4/@shifts.46" />
+    <shifts prev="//@rooms.4/@shifts.45" room="//@rooms.4" shiftNo="46" next="//@rooms.4/@shifts.47" />
+    <shifts prev="//@rooms.4/@shifts.46" room="//@rooms.4" shiftNo="47" next="//@rooms.4/@shifts.48" />
+    <shifts prev="//@rooms.4/@shifts.47" room="//@rooms.4" shiftNo="48" next="//@rooms.4/@shifts.49" />
+    <shifts prev="//@rooms.4/@shifts.48" room="//@rooms.4" shiftNo="49" next="//@rooms.4/@shifts.50" />
+    <shifts prev="//@rooms.4/@shifts.49" room="//@rooms.4" shiftNo="50" next="//@rooms.4/@shifts.51" />
+    <shifts prev="//@rooms.4/@shifts.50" room="//@rooms.4" shiftNo="51" next="//@rooms.4/@shifts.52" />
+    <shifts prev="//@rooms.4/@shifts.51" room="//@rooms.4" shiftNo="52" next="//@rooms.4/@shifts.53" />
+    <shifts prev="//@rooms.4/@shifts.52" room="//@rooms.4" shiftNo="53" next="//@rooms.4/@shifts.54" />
+    <shifts prev="//@rooms.4/@shifts.53" room="//@rooms.4" shiftNo="54" next="//@rooms.4/@shifts.55" />
+    <shifts prev="//@rooms.4/@shifts.54" room="//@rooms.4" shiftNo="55" next="//@rooms.4/@shifts.56" />
+    <shifts prev="//@rooms.4/@shifts.55" room="//@rooms.4" shiftNo="56" next="//@rooms.4/@shifts.57" />
+    <shifts prev="//@rooms.4/@shifts.56" room="//@rooms.4" shiftNo="57" next="//@rooms.4/@shifts.58" />
+    <shifts prev="//@rooms.4/@shifts.57" room="//@rooms.4" shiftNo="58" next="//@rooms.4/@shifts.59" />
+    <shifts prev="//@rooms.4/@shifts.58" room="//@rooms.4" shiftNo="59" next="//@rooms.4/@shifts.60" />
+    <shifts prev="//@rooms.4/@shifts.59" room="//@rooms.4" shiftNo="60" next="//@rooms.4/@shifts.61" />
+    <shifts prev="//@rooms.4/@shifts.60" room="//@rooms.4" shiftNo="61" next="//@rooms.4/@shifts.62" />
+    <shifts prev="//@rooms.4/@shifts.61" room="//@rooms.4" shiftNo="62" />
+  </rooms>
+  <surgeons name="s0" patients="//@patients.7 //@patients.8 //@patients.9 //@patients.10 //@patients.11 //@patients.12 //@patients.13 //@patients.14 //@patients.15 //@patients.16 //@patients.17 //@patients.18 //@patients.19 //@patients.20 //@patients.21 //@patients.22 //@patients.23 //@patients.24 //@patients.25 //@patients.26 //@patients.27 //@patients.28 //@patients.29 //@patients.30 //@patients.31 //@patients.32 //@patients.33 //@patients.34 //@patients.35 //@patients.36 //@patients.37 //@patients.38 //@patients.39 //@patients.40 //@patients.41 //@patients.42 //@patients.43 //@patients.44 //@patients.45 //@patients.46 //@patients.47 //@patients.48">
+    <opTimes surgeon="//@surgeons.0" day="1" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="3" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="4" maxOpTime="360" />
+    <opTimes surgeon="//@surgeons.0" day="7" maxOpTime="600" />
+    <opTimes surgeon="//@surgeons.0" day="8" maxOpTime="360" />
+    <opTimes surgeon="//@surgeons.0" day="11" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="13" maxOpTime="600" />
+    <opTimes surgeon="//@surgeons.0" day="14" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="16" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="17" maxOpTime="480" />
+    <opTimes surgeon="//@surgeons.0" day="19" maxOpTime="480" />
+  </surgeons>
+  <ots name="t0">
+    <capacities ot="//@ots.0" day="0" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="1" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="2" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="3" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="4" maxCapacity="480" />
+    <capacities ot="//@ots.0" day="5" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="6" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="7" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="8" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="9" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="11" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="12" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="13" maxCapacity="480" />
+    <capacities ot="//@ots.0" day="14" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="16" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="17" maxCapacity="600" />
+    <capacities ot="//@ots.0" day="18" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="19" maxCapacity="720" />
+    <capacities ot="//@ots.0" day="20" maxCapacity="600" />
+  </ots>
+  <ots name="t1">
+    <capacities ot="//@ots.1" day="1" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="2" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="3" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="4" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="5" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="6" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="7" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="8" maxCapacity="480" />
+    <capacities ot="//@ots.1" day="9" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="10" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="11" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="12" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="13" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="14" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="15" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="16" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="17" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="18" maxCapacity="600" />
+    <capacities ot="//@ots.1" day="19" maxCapacity="720" />
+    <capacities ot="//@ots.1" day="20" maxCapacity="720" />
+  </ots>
+  <weight roomMixedAge="5" roomNurseSkill="1" continuityOfCare="5" nurseExcessiveWorkload="1" openOperatingTheater="30" surgeonTransfer="1" patientDelay="5" unscheduledOptional="150" />
+  <patients firstWorkload="//@patients.0/@workloads.0" name="a0" earliestDay="0" dueDay="0" mandatory="false" ageGroup="2" gender="A" stayLength="4" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.0" derivedShift="//@rooms.4/@shifts.0" workloadValue="3" minNurseSkill="1" next="//@patients.0/@workloads.1" />
+    <workloads prev="//@patients.0/@workloads.0" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.1" workloadValue="3" minNurseSkill="0" next="//@patients.0/@workloads.2" />
+    <workloads prev="//@patients.0/@workloads.1" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.2" workloadValue="1" minNurseSkill="0" next="//@patients.0/@workloads.3" />
+    <workloads prev="//@patients.0/@workloads.2" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.3" workloadValue="1" minNurseSkill="0" next="//@patients.0/@workloads.4" />
+    <workloads prev="//@patients.0/@workloads.3" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.4" workloadValue="1" minNurseSkill="2" next="//@patients.0/@workloads.5" />
+    <workloads prev="//@patients.0/@workloads.4" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.5" workloadValue="1" minNurseSkill="0" next="//@patients.0/@workloads.6" />
+    <workloads prev="//@patients.0/@workloads.5" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.6" workloadValue="1" minNurseSkill="1" next="//@patients.0/@workloads.7" />
+    <workloads prev="//@patients.0/@workloads.6" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.7" workloadValue="1" minNurseSkill="1" next="//@patients.0/@workloads.8" />
+    <workloads prev="//@patients.0/@workloads.7" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.8" workloadValue="1" minNurseSkill="1" next="//@patients.0/@workloads.9" />
+    <workloads prev="//@patients.0/@workloads.8" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.9" workloadValue="1" minNurseSkill="1" next="//@patients.0/@workloads.10" />
+    <workloads prev="//@patients.0/@workloads.9" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.10" workloadValue="2" minNurseSkill="0" next="//@patients.0/@workloads.11" />
+    <workloads prev="//@patients.0/@workloads.10" patient="//@patients.0" derivedShift="//@rooms.4/@shifts.11" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.1/@workloads.0" name="a1" earliestDay="0" dueDay="0" mandatory="false" ageGroup="2" gender="B" stayLength="1" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.1" derivedShift="//@rooms.1/@shifts.0" workloadValue="1" minNurseSkill="1" next="//@patients.1/@workloads.1" />
+    <workloads prev="//@patients.1/@workloads.0" patient="//@patients.1" derivedShift="//@rooms.1/@shifts.1" workloadValue="3" minNurseSkill="1" next="//@patients.1/@workloads.2" />
+    <workloads prev="//@patients.1/@workloads.1" patient="//@patients.1" derivedShift="//@rooms.1/@shifts.2" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.2/@workloads.0" name="a2" earliestDay="0" dueDay="0" mandatory="false" ageGroup="2" gender="A" stayLength="5" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.2" derivedShift="//@rooms.0/@shifts.0" workloadValue="2" minNurseSkill="2" next="//@patients.2/@workloads.1" />
+    <workloads prev="//@patients.2/@workloads.0" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.1" workloadValue="2" minNurseSkill="2" next="//@patients.2/@workloads.2" />
+    <workloads prev="//@patients.2/@workloads.1" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.2" workloadValue="1" minNurseSkill="0" next="//@patients.2/@workloads.3" />
+    <workloads prev="//@patients.2/@workloads.2" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.3" workloadValue="2" minNurseSkill="1" next="//@patients.2/@workloads.4" />
+    <workloads prev="//@patients.2/@workloads.3" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.4" workloadValue="2" minNurseSkill="1" next="//@patients.2/@workloads.5" />
+    <workloads prev="//@patients.2/@workloads.4" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.5" workloadValue="1" minNurseSkill="0" next="//@patients.2/@workloads.6" />
+    <workloads prev="//@patients.2/@workloads.5" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.6" workloadValue="2" minNurseSkill="0" next="//@patients.2/@workloads.7" />
+    <workloads prev="//@patients.2/@workloads.6" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.7" workloadValue="1" minNurseSkill="2" next="//@patients.2/@workloads.8" />
+    <workloads prev="//@patients.2/@workloads.7" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.8" workloadValue="1" minNurseSkill="0" next="//@patients.2/@workloads.9" />
+    <workloads prev="//@patients.2/@workloads.8" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.9" workloadValue="3" minNurseSkill="1" next="//@patients.2/@workloads.10" />
+    <workloads prev="//@patients.2/@workloads.9" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.10" workloadValue="3" minNurseSkill="0" next="//@patients.2/@workloads.11" />
+    <workloads prev="//@patients.2/@workloads.10" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.11" workloadValue="1" minNurseSkill="0" next="//@patients.2/@workloads.12" />
+    <workloads prev="//@patients.2/@workloads.11" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.12" workloadValue="1" minNurseSkill="0" next="//@patients.2/@workloads.13" />
+    <workloads prev="//@patients.2/@workloads.12" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.13" workloadValue="2" minNurseSkill="0" next="//@patients.2/@workloads.14" />
+    <workloads prev="//@patients.2/@workloads.13" patient="//@patients.2" derivedShift="//@rooms.0/@shifts.14" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.3/@workloads.0" name="a3" earliestDay="0" dueDay="0" mandatory="false" ageGroup="1" gender="B" stayLength="2" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.3" derivedShift="//@rooms.2/@shifts.0" workloadValue="3" minNurseSkill="2" next="//@patients.3/@workloads.1" />
+    <workloads prev="//@patients.3/@workloads.0" patient="//@patients.3" derivedShift="//@rooms.2/@shifts.1" workloadValue="2" minNurseSkill="1" next="//@patients.3/@workloads.2" />
+    <workloads prev="//@patients.3/@workloads.1" patient="//@patients.3" derivedShift="//@rooms.2/@shifts.2" workloadValue="1" minNurseSkill="1" next="//@patients.3/@workloads.3" />
+    <workloads prev="//@patients.3/@workloads.2" patient="//@patients.3" derivedShift="//@rooms.2/@shifts.3" workloadValue="2" minNurseSkill="1" next="//@patients.3/@workloads.4" />
+    <workloads prev="//@patients.3/@workloads.3" patient="//@patients.3" derivedShift="//@rooms.2/@shifts.4" workloadValue="3" minNurseSkill="1" next="//@patients.3/@workloads.5" />
+    <workloads prev="//@patients.3/@workloads.4" patient="//@patients.3" derivedShift="//@rooms.2/@shifts.5" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.4/@workloads.0" name="a4" earliestDay="0" dueDay="0" mandatory="false" ageGroup="2" gender="A" stayLength="2" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.4" derivedShift="//@rooms.3/@shifts.0" workloadValue="1" minNurseSkill="1" next="//@patients.4/@workloads.1" />
+    <workloads prev="//@patients.4/@workloads.0" patient="//@patients.4" derivedShift="//@rooms.3/@shifts.1" workloadValue="1" minNurseSkill="0" next="//@patients.4/@workloads.2" />
+    <workloads prev="//@patients.4/@workloads.1" patient="//@patients.4" derivedShift="//@rooms.3/@shifts.2" workloadValue="1" minNurseSkill="1" next="//@patients.4/@workloads.3" />
+    <workloads prev="//@patients.4/@workloads.2" patient="//@patients.4" derivedShift="//@rooms.3/@shifts.3" workloadValue="2" minNurseSkill="2" next="//@patients.4/@workloads.4" />
+    <workloads prev="//@patients.4/@workloads.3" patient="//@patients.4" derivedShift="//@rooms.3/@shifts.4" workloadValue="2" minNurseSkill="0" next="//@patients.4/@workloads.5" />
+    <workloads prev="//@patients.4/@workloads.4" patient="//@patients.4" derivedShift="//@rooms.3/@shifts.5" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.5/@workloads.0" name="a5" earliestDay="0" dueDay="0" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.5" derivedShift="//@rooms.1/@shifts.0" workloadValue="3" minNurseSkill="2" next="//@patients.5/@workloads.1" />
+    <workloads prev="//@patients.5/@workloads.0" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.1" workloadValue="3" minNurseSkill="0" next="//@patients.5/@workloads.2" />
+    <workloads prev="//@patients.5/@workloads.1" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.2" workloadValue="1" minNurseSkill="0" next="//@patients.5/@workloads.3" />
+    <workloads prev="//@patients.5/@workloads.2" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.3" workloadValue="3" minNurseSkill="2" next="//@patients.5/@workloads.4" />
+    <workloads prev="//@patients.5/@workloads.3" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.4" workloadValue="1" minNurseSkill="0" next="//@patients.5/@workloads.5" />
+    <workloads prev="//@patients.5/@workloads.4" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.5" workloadValue="1" minNurseSkill="0" next="//@patients.5/@workloads.6" />
+    <workloads prev="//@patients.5/@workloads.5" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.6" workloadValue="3" minNurseSkill="2" next="//@patients.5/@workloads.7" />
+    <workloads prev="//@patients.5/@workloads.6" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.7" workloadValue="3" minNurseSkill="1" next="//@patients.5/@workloads.8" />
+    <workloads prev="//@patients.5/@workloads.7" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.8" workloadValue="1" minNurseSkill="0" next="//@patients.5/@workloads.9" />
+    <workloads prev="//@patients.5/@workloads.8" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.9" workloadValue="1" minNurseSkill="1" next="//@patients.5/@workloads.10" />
+    <workloads prev="//@patients.5/@workloads.9" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.10" workloadValue="2" minNurseSkill="1" next="//@patients.5/@workloads.11" />
+    <workloads prev="//@patients.5/@workloads.10" patient="//@patients.5" derivedShift="//@rooms.1/@shifts.11" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.6/@workloads.0" name="a6" earliestDay="0" dueDay="0" mandatory="false" ageGroup="1" gender="A" stayLength="5" surgeryDuration="0" isOccupant="true">
+    <workloads patient="//@patients.6" derivedShift="//@rooms.0/@shifts.0" workloadValue="2" minNurseSkill="0" next="//@patients.6/@workloads.1" />
+    <workloads prev="//@patients.6/@workloads.0" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.1" workloadValue="1" minNurseSkill="2" next="//@patients.6/@workloads.2" />
+    <workloads prev="//@patients.6/@workloads.1" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.2" workloadValue="1" minNurseSkill="1" next="//@patients.6/@workloads.3" />
+    <workloads prev="//@patients.6/@workloads.2" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.3" workloadValue="3" minNurseSkill="0" next="//@patients.6/@workloads.4" />
+    <workloads prev="//@patients.6/@workloads.3" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.4" workloadValue="3" minNurseSkill="2" next="//@patients.6/@workloads.5" />
+    <workloads prev="//@patients.6/@workloads.4" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.5" workloadValue="1" minNurseSkill="0" next="//@patients.6/@workloads.6" />
+    <workloads prev="//@patients.6/@workloads.5" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.6" workloadValue="1" minNurseSkill="1" next="//@patients.6/@workloads.7" />
+    <workloads prev="//@patients.6/@workloads.6" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.7" workloadValue="1" minNurseSkill="0" next="//@patients.6/@workloads.8" />
+    <workloads prev="//@patients.6/@workloads.7" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.8" workloadValue="1" minNurseSkill="1" next="//@patients.6/@workloads.9" />
+    <workloads prev="//@patients.6/@workloads.8" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.9" workloadValue="3" minNurseSkill="2" next="//@patients.6/@workloads.10" />
+    <workloads prev="//@patients.6/@workloads.9" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.10" workloadValue="1" minNurseSkill="0" next="//@patients.6/@workloads.11" />
+    <workloads prev="//@patients.6/@workloads.10" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.11" workloadValue="1" minNurseSkill="0" next="//@patients.6/@workloads.12" />
+    <workloads prev="//@patients.6/@workloads.11" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.12" workloadValue="3" minNurseSkill="1" next="//@patients.6/@workloads.13" />
+    <workloads prev="//@patients.6/@workloads.12" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.13" workloadValue="2" minNurseSkill="1" next="//@patients.6/@workloads.14" />
+    <workloads prev="//@patients.6/@workloads.13" patient="//@patients.6" derivedShift="//@rooms.0/@shifts.14" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.7/@workloads.0" surgeon="//@surgeons.0" name="p00" earliestDay="3" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="3" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.7" workloadValue="3" minNurseSkill="0" next="//@patients.7/@workloads.1" />
+    <workloads prev="//@patients.7/@workloads.0" patient="//@patients.7" workloadValue="2" minNurseSkill="2" next="//@patients.7/@workloads.2" />
+    <workloads prev="//@patients.7/@workloads.1" patient="//@patients.7" workloadValue="2" minNurseSkill="0" next="//@patients.7/@workloads.3" />
+    <workloads prev="//@patients.7/@workloads.2" patient="//@patients.7" workloadValue="2" minNurseSkill="0" next="//@patients.7/@workloads.4" />
+    <workloads prev="//@patients.7/@workloads.3" patient="//@patients.7" workloadValue="3" minNurseSkill="0" next="//@patients.7/@workloads.5" />
+    <workloads prev="//@patients.7/@workloads.4" patient="//@patients.7" workloadValue="1" minNurseSkill="0" next="//@patients.7/@workloads.6" />
+    <workloads prev="//@patients.7/@workloads.5" patient="//@patients.7" workloadValue="2" minNurseSkill="2" next="//@patients.7/@workloads.7" />
+    <workloads prev="//@patients.7/@workloads.6" patient="//@patients.7" workloadValue="2" minNurseSkill="2" next="//@patients.7/@workloads.8" />
+    <workloads prev="//@patients.7/@workloads.7" patient="//@patients.7" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.8/@workloads.0" surgeon="//@surgeons.0" name="p01" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.8" workloadValue="3" minNurseSkill="2" next="//@patients.8/@workloads.1" />
+    <workloads prev="//@patients.8/@workloads.0" patient="//@patients.8" workloadValue="2" minNurseSkill="1" next="//@patients.8/@workloads.2" />
+    <workloads prev="//@patients.8/@workloads.1" patient="//@patients.8" workloadValue="2" minNurseSkill="0" next="//@patients.8/@workloads.3" />
+    <workloads prev="//@patients.8/@workloads.2" patient="//@patients.8" workloadValue="1" minNurseSkill="2" next="//@patients.8/@workloads.4" />
+    <workloads prev="//@patients.8/@workloads.3" patient="//@patients.8" workloadValue="1" minNurseSkill="1" next="//@patients.8/@workloads.5" />
+    <workloads prev="//@patients.8/@workloads.4" patient="//@patients.8" workloadValue="1" minNurseSkill="0" next="//@patients.8/@workloads.6" />
+    <workloads prev="//@patients.8/@workloads.5" patient="//@patients.8" workloadValue="2" minNurseSkill="0" next="//@patients.8/@workloads.7" />
+    <workloads prev="//@patients.8/@workloads.6" patient="//@patients.8" workloadValue="1" minNurseSkill="2" next="//@patients.8/@workloads.8" />
+    <workloads prev="//@patients.8/@workloads.7" patient="//@patients.8" workloadValue="1" minNurseSkill="0" next="//@patients.8/@workloads.9" />
+    <workloads prev="//@patients.8/@workloads.8" patient="//@patients.8" workloadValue="2" minNurseSkill="2" next="//@patients.8/@workloads.10" />
+    <workloads prev="//@patients.8/@workloads.9" patient="//@patients.8" workloadValue="3" minNurseSkill="0" next="//@patients.8/@workloads.11" />
+    <workloads prev="//@patients.8/@workloads.10" patient="//@patients.8" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.9/@workloads.0" surgeon="//@surgeons.0" name="p02" earliestDay="8" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="11" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.9" workloadValue="3" minNurseSkill="2" next="//@patients.9/@workloads.1" />
+    <workloads prev="//@patients.9/@workloads.0" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.2" />
+    <workloads prev="//@patients.9/@workloads.1" patient="//@patients.9" workloadValue="1" minNurseSkill="0" next="//@patients.9/@workloads.3" />
+    <workloads prev="//@patients.9/@workloads.2" patient="//@patients.9" workloadValue="3" minNurseSkill="0" next="//@patients.9/@workloads.4" />
+    <workloads prev="//@patients.9/@workloads.3" patient="//@patients.9" workloadValue="2" minNurseSkill="2" next="//@patients.9/@workloads.5" />
+    <workloads prev="//@patients.9/@workloads.4" patient="//@patients.9" workloadValue="1" minNurseSkill="1" next="//@patients.9/@workloads.6" />
+    <workloads prev="//@patients.9/@workloads.5" patient="//@patients.9" workloadValue="3" minNurseSkill="1" next="//@patients.9/@workloads.7" />
+    <workloads prev="//@patients.9/@workloads.6" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.8" />
+    <workloads prev="//@patients.9/@workloads.7" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.9" />
+    <workloads prev="//@patients.9/@workloads.8" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.10" />
+    <workloads prev="//@patients.9/@workloads.9" patient="//@patients.9" workloadValue="2" minNurseSkill="2" next="//@patients.9/@workloads.11" />
+    <workloads prev="//@patients.9/@workloads.10" patient="//@patients.9" workloadValue="1" minNurseSkill="0" next="//@patients.9/@workloads.12" />
+    <workloads prev="//@patients.9/@workloads.11" patient="//@patients.9" workloadValue="3" minNurseSkill="1" next="//@patients.9/@workloads.13" />
+    <workloads prev="//@patients.9/@workloads.12" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.14" />
+    <workloads prev="//@patients.9/@workloads.13" patient="//@patients.9" workloadValue="1" minNurseSkill="0" next="//@patients.9/@workloads.15" />
+    <workloads prev="//@patients.9/@workloads.14" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.16" />
+    <workloads prev="//@patients.9/@workloads.15" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.17" />
+    <workloads prev="//@patients.9/@workloads.16" patient="//@patients.9" workloadValue="1" minNurseSkill="1" next="//@patients.9/@workloads.18" />
+    <workloads prev="//@patients.9/@workloads.17" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.19" />
+    <workloads prev="//@patients.9/@workloads.18" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.20" />
+    <workloads prev="//@patients.9/@workloads.19" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.21" />
+    <workloads prev="//@patients.9/@workloads.20" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.22" />
+    <workloads prev="//@patients.9/@workloads.21" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.23" />
+    <workloads prev="//@patients.9/@workloads.22" patient="//@patients.9" workloadValue="1" minNurseSkill="1" next="//@patients.9/@workloads.24" />
+    <workloads prev="//@patients.9/@workloads.23" patient="//@patients.9" workloadValue="3" minNurseSkill="1" next="//@patients.9/@workloads.25" />
+    <workloads prev="//@patients.9/@workloads.24" patient="//@patients.9" workloadValue="3" minNurseSkill="0" next="//@patients.9/@workloads.26" />
+    <workloads prev="//@patients.9/@workloads.25" patient="//@patients.9" workloadValue="2" minNurseSkill="1" next="//@patients.9/@workloads.27" />
+    <workloads prev="//@patients.9/@workloads.26" patient="//@patients.9" workloadValue="3" minNurseSkill="1" next="//@patients.9/@workloads.28" />
+    <workloads prev="//@patients.9/@workloads.27" patient="//@patients.9" workloadValue="1" minNurseSkill="0" next="//@patients.9/@workloads.29" />
+    <workloads prev="//@patients.9/@workloads.28" patient="//@patients.9" workloadValue="1" minNurseSkill="1" next="//@patients.9/@workloads.30" />
+    <workloads prev="//@patients.9/@workloads.29" patient="//@patients.9" workloadValue="2" minNurseSkill="2" next="//@patients.9/@workloads.31" />
+    <workloads prev="//@patients.9/@workloads.30" patient="//@patients.9" workloadValue="2" minNurseSkill="0" next="//@patients.9/@workloads.32" />
+    <workloads prev="//@patients.9/@workloads.31" patient="//@patients.9" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.10/@workloads.0" surgeon="//@surgeons.0" name="p03" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="8" surgeryDuration="60" isOccupant="false">
+    <workloads patient="//@patients.10" workloadValue="2" minNurseSkill="2" next="//@patients.10/@workloads.1" />
+    <workloads prev="//@patients.10/@workloads.0" patient="//@patients.10" workloadValue="3" minNurseSkill="1" next="//@patients.10/@workloads.2" />
+    <workloads prev="//@patients.10/@workloads.1" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.3" />
+    <workloads prev="//@patients.10/@workloads.2" patient="//@patients.10" workloadValue="2" minNurseSkill="0" next="//@patients.10/@workloads.4" />
+    <workloads prev="//@patients.10/@workloads.3" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.5" />
+    <workloads prev="//@patients.10/@workloads.4" patient="//@patients.10" workloadValue="2" minNurseSkill="0" next="//@patients.10/@workloads.6" />
+    <workloads prev="//@patients.10/@workloads.5" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.7" />
+    <workloads prev="//@patients.10/@workloads.6" patient="//@patients.10" workloadValue="2" minNurseSkill="2" next="//@patients.10/@workloads.8" />
+    <workloads prev="//@patients.10/@workloads.7" patient="//@patients.10" workloadValue="1" minNurseSkill="1" next="//@patients.10/@workloads.9" />
+    <workloads prev="//@patients.10/@workloads.8" patient="//@patients.10" workloadValue="2" minNurseSkill="2" next="//@patients.10/@workloads.10" />
+    <workloads prev="//@patients.10/@workloads.9" patient="//@patients.10" workloadValue="3" minNurseSkill="0" next="//@patients.10/@workloads.11" />
+    <workloads prev="//@patients.10/@workloads.10" patient="//@patients.10" workloadValue="1" minNurseSkill="0" next="//@patients.10/@workloads.12" />
+    <workloads prev="//@patients.10/@workloads.11" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.13" />
+    <workloads prev="//@patients.10/@workloads.12" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.14" />
+    <workloads prev="//@patients.10/@workloads.13" patient="//@patients.10" workloadValue="2" minNurseSkill="1" next="//@patients.10/@workloads.15" />
+    <workloads prev="//@patients.10/@workloads.14" patient="//@patients.10" workloadValue="2" minNurseSkill="2" next="//@patients.10/@workloads.16" />
+    <workloads prev="//@patients.10/@workloads.15" patient="//@patients.10" workloadValue="3" minNurseSkill="2" next="//@patients.10/@workloads.17" />
+    <workloads prev="//@patients.10/@workloads.16" patient="//@patients.10" workloadValue="1" minNurseSkill="0" next="//@patients.10/@workloads.18" />
+    <workloads prev="//@patients.10/@workloads.17" patient="//@patients.10" workloadValue="3" minNurseSkill="2" next="//@patients.10/@workloads.19" />
+    <workloads prev="//@patients.10/@workloads.18" patient="//@patients.10" workloadValue="3" minNurseSkill="0" next="//@patients.10/@workloads.20" />
+    <workloads prev="//@patients.10/@workloads.19" patient="//@patients.10" workloadValue="1" minNurseSkill="0" next="//@patients.10/@workloads.21" />
+    <workloads prev="//@patients.10/@workloads.20" patient="//@patients.10" workloadValue="3" minNurseSkill="2" next="//@patients.10/@workloads.22" />
+    <workloads prev="//@patients.10/@workloads.21" patient="//@patients.10" workloadValue="1" minNurseSkill="2" next="//@patients.10/@workloads.23" />
+    <workloads prev="//@patients.10/@workloads.22" patient="//@patients.10" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.11/@workloads.0" surgeon="//@surgeons.0" name="p04" earliestDay="3" dueDay="19" mandatory="true" ageGroup="2" gender="A" stayLength="6" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.11" workloadValue="2" minNurseSkill="0" next="//@patients.11/@workloads.1" />
+    <workloads prev="//@patients.11/@workloads.0" patient="//@patients.11" workloadValue="2" minNurseSkill="0" next="//@patients.11/@workloads.2" />
+    <workloads prev="//@patients.11/@workloads.1" patient="//@patients.11" workloadValue="1" minNurseSkill="0" next="//@patients.11/@workloads.3" />
+    <workloads prev="//@patients.11/@workloads.2" patient="//@patients.11" workloadValue="2" minNurseSkill="0" next="//@patients.11/@workloads.4" />
+    <workloads prev="//@patients.11/@workloads.3" patient="//@patients.11" workloadValue="2" minNurseSkill="1" next="//@patients.11/@workloads.5" />
+    <workloads prev="//@patients.11/@workloads.4" patient="//@patients.11" workloadValue="2" minNurseSkill="1" next="//@patients.11/@workloads.6" />
+    <workloads prev="//@patients.11/@workloads.5" patient="//@patients.11" workloadValue="3" minNurseSkill="0" next="//@patients.11/@workloads.7" />
+    <workloads prev="//@patients.11/@workloads.6" patient="//@patients.11" workloadValue="2" minNurseSkill="2" next="//@patients.11/@workloads.8" />
+    <workloads prev="//@patients.11/@workloads.7" patient="//@patients.11" workloadValue="1" minNurseSkill="1" next="//@patients.11/@workloads.9" />
+    <workloads prev="//@patients.11/@workloads.8" patient="//@patients.11" workloadValue="2" minNurseSkill="2" next="//@patients.11/@workloads.10" />
+    <workloads prev="//@patients.11/@workloads.9" patient="//@patients.11" workloadValue="2" minNurseSkill="0" next="//@patients.11/@workloads.11" />
+    <workloads prev="//@patients.11/@workloads.10" patient="//@patients.11" workloadValue="2" minNurseSkill="1" next="//@patients.11/@workloads.12" />
+    <workloads prev="//@patients.11/@workloads.11" patient="//@patients.11" workloadValue="2" minNurseSkill="0" next="//@patients.11/@workloads.13" />
+    <workloads prev="//@patients.11/@workloads.12" patient="//@patients.11" workloadValue="3" minNurseSkill="2" next="//@patients.11/@workloads.14" />
+    <workloads prev="//@patients.11/@workloads.13" patient="//@patients.11" workloadValue="1" minNurseSkill="1" next="//@patients.11/@workloads.15" />
+    <workloads prev="//@patients.11/@workloads.14" patient="//@patients.11" workloadValue="3" minNurseSkill="0" next="//@patients.11/@workloads.16" />
+    <workloads prev="//@patients.11/@workloads.15" patient="//@patients.11" workloadValue="3" minNurseSkill="2" next="//@patients.11/@workloads.17" />
+    <workloads prev="//@patients.11/@workloads.16" patient="//@patients.11" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.12/@workloads.0" surgeon="//@surgeons.0" name="p05" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.12" workloadValue="3" minNurseSkill="1" next="//@patients.12/@workloads.1" />
+    <workloads prev="//@patients.12/@workloads.0" patient="//@patients.12" workloadValue="3" minNurseSkill="0" next="//@patients.12/@workloads.2" />
+    <workloads prev="//@patients.12/@workloads.1" patient="//@patients.12" workloadValue="2" minNurseSkill="1" next="//@patients.12/@workloads.3" />
+    <workloads prev="//@patients.12/@workloads.2" patient="//@patients.12" workloadValue="3" minNurseSkill="0" next="//@patients.12/@workloads.4" />
+    <workloads prev="//@patients.12/@workloads.3" patient="//@patients.12" workloadValue="3" minNurseSkill="2" next="//@patients.12/@workloads.5" />
+    <workloads prev="//@patients.12/@workloads.4" patient="//@patients.12" workloadValue="2" minNurseSkill="0" next="//@patients.12/@workloads.6" />
+    <workloads prev="//@patients.12/@workloads.5" patient="//@patients.12" workloadValue="3" minNurseSkill="2" next="//@patients.12/@workloads.7" />
+    <workloads prev="//@patients.12/@workloads.6" patient="//@patients.12" workloadValue="2" minNurseSkill="1" next="//@patients.12/@workloads.8" />
+    <workloads prev="//@patients.12/@workloads.7" patient="//@patients.12" workloadValue="2" minNurseSkill="0" next="//@patients.12/@workloads.9" />
+    <workloads prev="//@patients.12/@workloads.8" patient="//@patients.12" workloadValue="2" minNurseSkill="0" next="//@patients.12/@workloads.10" />
+    <workloads prev="//@patients.12/@workloads.9" patient="//@patients.12" workloadValue="3" minNurseSkill="0" next="//@patients.12/@workloads.11" />
+    <workloads prev="//@patients.12/@workloads.10" patient="//@patients.12" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.13/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1" name="p06" earliestDay="16" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="4" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.13" workloadValue="3" minNurseSkill="0" next="//@patients.13/@workloads.1" />
+    <workloads prev="//@patients.13/@workloads.0" patient="//@patients.13" workloadValue="3" minNurseSkill="0" next="//@patients.13/@workloads.2" />
+    <workloads prev="//@patients.13/@workloads.1" patient="//@patients.13" workloadValue="2" minNurseSkill="1" next="//@patients.13/@workloads.3" />
+    <workloads prev="//@patients.13/@workloads.2" patient="//@patients.13" workloadValue="2" minNurseSkill="1" next="//@patients.13/@workloads.4" />
+    <workloads prev="//@patients.13/@workloads.3" patient="//@patients.13" workloadValue="3" minNurseSkill="2" next="//@patients.13/@workloads.5" />
+    <workloads prev="//@patients.13/@workloads.4" patient="//@patients.13" workloadValue="2" minNurseSkill="1" next="//@patients.13/@workloads.6" />
+    <workloads prev="//@patients.13/@workloads.5" patient="//@patients.13" workloadValue="2" minNurseSkill="1" next="//@patients.13/@workloads.7" />
+    <workloads prev="//@patients.13/@workloads.6" patient="//@patients.13" workloadValue="2" minNurseSkill="1" next="//@patients.13/@workloads.8" />
+    <workloads prev="//@patients.13/@workloads.7" patient="//@patients.13" workloadValue="2" minNurseSkill="0" next="//@patients.13/@workloads.9" />
+    <workloads prev="//@patients.13/@workloads.8" patient="//@patients.13" workloadValue="2" minNurseSkill="2" next="//@patients.13/@workloads.10" />
+    <workloads prev="//@patients.13/@workloads.9" patient="//@patients.13" workloadValue="1" minNurseSkill="0" next="//@patients.13/@workloads.11" />
+    <workloads prev="//@patients.13/@workloads.10" patient="//@patients.13" workloadValue="2" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.14/@workloads.0" surgeon="//@surgeons.0" name="p07" earliestDay="3" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="6" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.14" workloadValue="2" minNurseSkill="2" next="//@patients.14/@workloads.1" />
+    <workloads prev="//@patients.14/@workloads.0" patient="//@patients.14" workloadValue="2" minNurseSkill="0" next="//@patients.14/@workloads.2" />
+    <workloads prev="//@patients.14/@workloads.1" patient="//@patients.14" workloadValue="2" minNurseSkill="0" next="//@patients.14/@workloads.3" />
+    <workloads prev="//@patients.14/@workloads.2" patient="//@patients.14" workloadValue="2" minNurseSkill="2" next="//@patients.14/@workloads.4" />
+    <workloads prev="//@patients.14/@workloads.3" patient="//@patients.14" workloadValue="2" minNurseSkill="2" next="//@patients.14/@workloads.5" />
+    <workloads prev="//@patients.14/@workloads.4" patient="//@patients.14" workloadValue="2" minNurseSkill="1" next="//@patients.14/@workloads.6" />
+    <workloads prev="//@patients.14/@workloads.5" patient="//@patients.14" workloadValue="3" minNurseSkill="0" next="//@patients.14/@workloads.7" />
+    <workloads prev="//@patients.14/@workloads.6" patient="//@patients.14" workloadValue="3" minNurseSkill="2" next="//@patients.14/@workloads.8" />
+    <workloads prev="//@patients.14/@workloads.7" patient="//@patients.14" workloadValue="1" minNurseSkill="0" next="//@patients.14/@workloads.9" />
+    <workloads prev="//@patients.14/@workloads.8" patient="//@patients.14" workloadValue="2" minNurseSkill="0" next="//@patients.14/@workloads.10" />
+    <workloads prev="//@patients.14/@workloads.9" patient="//@patients.14" workloadValue="3" minNurseSkill="2" next="//@patients.14/@workloads.11" />
+    <workloads prev="//@patients.14/@workloads.10" patient="//@patients.14" workloadValue="2" minNurseSkill="0" next="//@patients.14/@workloads.12" />
+    <workloads prev="//@patients.14/@workloads.11" patient="//@patients.14" workloadValue="2" minNurseSkill="0" next="//@patients.14/@workloads.13" />
+    <workloads prev="//@patients.14/@workloads.12" patient="//@patients.14" workloadValue="2" minNurseSkill="2" next="//@patients.14/@workloads.14" />
+    <workloads prev="//@patients.14/@workloads.13" patient="//@patients.14" workloadValue="1" minNurseSkill="1" next="//@patients.14/@workloads.15" />
+    <workloads prev="//@patients.14/@workloads.14" patient="//@patients.14" workloadValue="1" minNurseSkill="1" next="//@patients.14/@workloads.16" />
+    <workloads prev="//@patients.14/@workloads.15" patient="//@patients.14" workloadValue="1" minNurseSkill="1" next="//@patients.14/@workloads.17" />
+    <workloads prev="//@patients.14/@workloads.16" patient="//@patients.14" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.15/@workloads.0" surgeon="//@surgeons.0" name="p08" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="5" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.15" workloadValue="2" minNurseSkill="0" next="//@patients.15/@workloads.1" />
+    <workloads prev="//@patients.15/@workloads.0" patient="//@patients.15" workloadValue="2" minNurseSkill="1" next="//@patients.15/@workloads.2" />
+    <workloads prev="//@patients.15/@workloads.1" patient="//@patients.15" workloadValue="2" minNurseSkill="0" next="//@patients.15/@workloads.3" />
+    <workloads prev="//@patients.15/@workloads.2" patient="//@patients.15" workloadValue="2" minNurseSkill="1" next="//@patients.15/@workloads.4" />
+    <workloads prev="//@patients.15/@workloads.3" patient="//@patients.15" workloadValue="2" minNurseSkill="2" next="//@patients.15/@workloads.5" />
+    <workloads prev="//@patients.15/@workloads.4" patient="//@patients.15" workloadValue="2" minNurseSkill="0" next="//@patients.15/@workloads.6" />
+    <workloads prev="//@patients.15/@workloads.5" patient="//@patients.15" workloadValue="2" minNurseSkill="1" next="//@patients.15/@workloads.7" />
+    <workloads prev="//@patients.15/@workloads.6" patient="//@patients.15" workloadValue="2" minNurseSkill="0" next="//@patients.15/@workloads.8" />
+    <workloads prev="//@patients.15/@workloads.7" patient="//@patients.15" workloadValue="1" minNurseSkill="0" next="//@patients.15/@workloads.9" />
+    <workloads prev="//@patients.15/@workloads.8" patient="//@patients.15" workloadValue="2" minNurseSkill="0" next="//@patients.15/@workloads.10" />
+    <workloads prev="//@patients.15/@workloads.9" patient="//@patients.15" workloadValue="3" minNurseSkill="1" next="//@patients.15/@workloads.11" />
+    <workloads prev="//@patients.15/@workloads.10" patient="//@patients.15" workloadValue="1" minNurseSkill="0" next="//@patients.15/@workloads.12" />
+    <workloads prev="//@patients.15/@workloads.11" patient="//@patients.15" workloadValue="2" minNurseSkill="1" next="//@patients.15/@workloads.13" />
+    <workloads prev="//@patients.15/@workloads.12" patient="//@patients.15" workloadValue="1" minNurseSkill="1" next="//@patients.15/@workloads.14" />
+    <workloads prev="//@patients.15/@workloads.13" patient="//@patients.15" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.16/@workloads.0" surgeon="//@surgeons.0" name="p09" earliestDay="1" dueDay="100" mandatory="false" ageGroup="1" gender="B" stayLength="6" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.16" workloadValue="2" minNurseSkill="0" next="//@patients.16/@workloads.1" />
+    <workloads prev="//@patients.16/@workloads.0" patient="//@patients.16" workloadValue="2" minNurseSkill="2" next="//@patients.16/@workloads.2" />
+    <workloads prev="//@patients.16/@workloads.1" patient="//@patients.16" workloadValue="2" minNurseSkill="0" next="//@patients.16/@workloads.3" />
+    <workloads prev="//@patients.16/@workloads.2" patient="//@patients.16" workloadValue="3" minNurseSkill="0" next="//@patients.16/@workloads.4" />
+    <workloads prev="//@patients.16/@workloads.3" patient="//@patients.16" workloadValue="2" minNurseSkill="1" next="//@patients.16/@workloads.5" />
+    <workloads prev="//@patients.16/@workloads.4" patient="//@patients.16" workloadValue="2" minNurseSkill="0" next="//@patients.16/@workloads.6" />
+    <workloads prev="//@patients.16/@workloads.5" patient="//@patients.16" workloadValue="2" minNurseSkill="0" next="//@patients.16/@workloads.7" />
+    <workloads prev="//@patients.16/@workloads.6" patient="//@patients.16" workloadValue="2" minNurseSkill="0" next="//@patients.16/@workloads.8" />
+    <workloads prev="//@patients.16/@workloads.7" patient="//@patients.16" workloadValue="1" minNurseSkill="0" next="//@patients.16/@workloads.9" />
+    <workloads prev="//@patients.16/@workloads.8" patient="//@patients.16" workloadValue="2" minNurseSkill="1" next="//@patients.16/@workloads.10" />
+    <workloads prev="//@patients.16/@workloads.9" patient="//@patients.16" workloadValue="2" minNurseSkill="2" next="//@patients.16/@workloads.11" />
+    <workloads prev="//@patients.16/@workloads.10" patient="//@patients.16" workloadValue="1" minNurseSkill="0" next="//@patients.16/@workloads.12" />
+    <workloads prev="//@patients.16/@workloads.11" patient="//@patients.16" workloadValue="2" minNurseSkill="1" next="//@patients.16/@workloads.13" />
+    <workloads prev="//@patients.16/@workloads.12" patient="//@patients.16" workloadValue="3" minNurseSkill="1" next="//@patients.16/@workloads.14" />
+    <workloads prev="//@patients.16/@workloads.13" patient="//@patients.16" workloadValue="1" minNurseSkill="0" next="//@patients.16/@workloads.15" />
+    <workloads prev="//@patients.16/@workloads.14" patient="//@patients.16" workloadValue="2" minNurseSkill="2" next="//@patients.16/@workloads.16" />
+    <workloads prev="//@patients.16/@workloads.15" patient="//@patients.16" workloadValue="3" minNurseSkill="1" next="//@patients.16/@workloads.17" />
+    <workloads prev="//@patients.16/@workloads.16" patient="//@patients.16" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.17/@workloads.0" surgeon="//@surgeons.0" name="p10" earliestDay="4" dueDay="19" mandatory="true" ageGroup="2" gender="A" stayLength="10" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.1" />
+    <workloads prev="//@patients.17/@workloads.0" patient="//@patients.17" workloadValue="3" minNurseSkill="2" next="//@patients.17/@workloads.2" />
+    <workloads prev="//@patients.17/@workloads.1" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.3" />
+    <workloads prev="//@patients.17/@workloads.2" patient="//@patients.17" workloadValue="2" minNurseSkill="2" next="//@patients.17/@workloads.4" />
+    <workloads prev="//@patients.17/@workloads.3" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.5" />
+    <workloads prev="//@patients.17/@workloads.4" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.6" />
+    <workloads prev="//@patients.17/@workloads.5" patient="//@patients.17" workloadValue="3" minNurseSkill="0" next="//@patients.17/@workloads.7" />
+    <workloads prev="//@patients.17/@workloads.6" patient="//@patients.17" workloadValue="2" minNurseSkill="2" next="//@patients.17/@workloads.8" />
+    <workloads prev="//@patients.17/@workloads.7" patient="//@patients.17" workloadValue="1" minNurseSkill="0" next="//@patients.17/@workloads.9" />
+    <workloads prev="//@patients.17/@workloads.8" patient="//@patients.17" workloadValue="2" minNurseSkill="1" next="//@patients.17/@workloads.10" />
+    <workloads prev="//@patients.17/@workloads.9" patient="//@patients.17" workloadValue="2" minNurseSkill="1" next="//@patients.17/@workloads.11" />
+    <workloads prev="//@patients.17/@workloads.10" patient="//@patients.17" workloadValue="1" minNurseSkill="0" next="//@patients.17/@workloads.12" />
+    <workloads prev="//@patients.17/@workloads.11" patient="//@patients.17" workloadValue="2" minNurseSkill="2" next="//@patients.17/@workloads.13" />
+    <workloads prev="//@patients.17/@workloads.12" patient="//@patients.17" workloadValue="3" minNurseSkill="2" next="//@patients.17/@workloads.14" />
+    <workloads prev="//@patients.17/@workloads.13" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.15" />
+    <workloads prev="//@patients.17/@workloads.14" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.16" />
+    <workloads prev="//@patients.17/@workloads.15" patient="//@patients.17" workloadValue="3" minNurseSkill="0" next="//@patients.17/@workloads.17" />
+    <workloads prev="//@patients.17/@workloads.16" patient="//@patients.17" workloadValue="2" minNurseSkill="1" next="//@patients.17/@workloads.18" />
+    <workloads prev="//@patients.17/@workloads.17" patient="//@patients.17" workloadValue="2" minNurseSkill="1" next="//@patients.17/@workloads.19" />
+    <workloads prev="//@patients.17/@workloads.18" patient="//@patients.17" workloadValue="2" minNurseSkill="1" next="//@patients.17/@workloads.20" />
+    <workloads prev="//@patients.17/@workloads.19" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.21" />
+    <workloads prev="//@patients.17/@workloads.20" patient="//@patients.17" workloadValue="2" minNurseSkill="2" next="//@patients.17/@workloads.22" />
+    <workloads prev="//@patients.17/@workloads.21" patient="//@patients.17" workloadValue="3" minNurseSkill="2" next="//@patients.17/@workloads.23" />
+    <workloads prev="//@patients.17/@workloads.22" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.24" />
+    <workloads prev="//@patients.17/@workloads.23" patient="//@patients.17" workloadValue="3" minNurseSkill="2" next="//@patients.17/@workloads.25" />
+    <workloads prev="//@patients.17/@workloads.24" patient="//@patients.17" workloadValue="1" minNurseSkill="1" next="//@patients.17/@workloads.26" />
+    <workloads prev="//@patients.17/@workloads.25" patient="//@patients.17" workloadValue="1" minNurseSkill="0" next="//@patients.17/@workloads.27" />
+    <workloads prev="//@patients.17/@workloads.26" patient="//@patients.17" workloadValue="3" minNurseSkill="0" next="//@patients.17/@workloads.28" />
+    <workloads prev="//@patients.17/@workloads.27" patient="//@patients.17" workloadValue="2" minNurseSkill="0" next="//@patients.17/@workloads.29" />
+    <workloads prev="//@patients.17/@workloads.28" patient="//@patients.17" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.18/@workloads.0" surgeon="//@surgeons.0" name="p11" earliestDay="8" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="4" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.18" workloadValue="3" minNurseSkill="0" next="//@patients.18/@workloads.1" />
+    <workloads prev="//@patients.18/@workloads.0" patient="//@patients.18" workloadValue="2" minNurseSkill="2" next="//@patients.18/@workloads.2" />
+    <workloads prev="//@patients.18/@workloads.1" patient="//@patients.18" workloadValue="2" minNurseSkill="1" next="//@patients.18/@workloads.3" />
+    <workloads prev="//@patients.18/@workloads.2" patient="//@patients.18" workloadValue="2" minNurseSkill="0" next="//@patients.18/@workloads.4" />
+    <workloads prev="//@patients.18/@workloads.3" patient="//@patients.18" workloadValue="2" minNurseSkill="0" next="//@patients.18/@workloads.5" />
+    <workloads prev="//@patients.18/@workloads.4" patient="//@patients.18" workloadValue="1" minNurseSkill="1" next="//@patients.18/@workloads.6" />
+    <workloads prev="//@patients.18/@workloads.5" patient="//@patients.18" workloadValue="3" minNurseSkill="0" next="//@patients.18/@workloads.7" />
+    <workloads prev="//@patients.18/@workloads.6" patient="//@patients.18" workloadValue="2" minNurseSkill="0" next="//@patients.18/@workloads.8" />
+    <workloads prev="//@patients.18/@workloads.7" patient="//@patients.18" workloadValue="1" minNurseSkill="1" next="//@patients.18/@workloads.9" />
+    <workloads prev="//@patients.18/@workloads.8" patient="//@patients.18" workloadValue="2" minNurseSkill="0" next="//@patients.18/@workloads.10" />
+    <workloads prev="//@patients.18/@workloads.9" patient="//@patients.18" workloadValue="2" minNurseSkill="1" next="//@patients.18/@workloads.11" />
+    <workloads prev="//@patients.18/@workloads.10" patient="//@patients.18" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.19/@workloads.0" surgeon="//@surgeons.0" name="p12" earliestDay="3" dueDay="14" mandatory="true" ageGroup="2" gender="A" stayLength="4" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.19" workloadValue="2" minNurseSkill="0" next="//@patients.19/@workloads.1" />
+    <workloads prev="//@patients.19/@workloads.0" patient="//@patients.19" workloadValue="2" minNurseSkill="0" next="//@patients.19/@workloads.2" />
+    <workloads prev="//@patients.19/@workloads.1" patient="//@patients.19" workloadValue="1" minNurseSkill="0" next="//@patients.19/@workloads.3" />
+    <workloads prev="//@patients.19/@workloads.2" patient="//@patients.19" workloadValue="2" minNurseSkill="0" next="//@patients.19/@workloads.4" />
+    <workloads prev="//@patients.19/@workloads.3" patient="//@patients.19" workloadValue="3" minNurseSkill="2" next="//@patients.19/@workloads.5" />
+    <workloads prev="//@patients.19/@workloads.4" patient="//@patients.19" workloadValue="1" minNurseSkill="1" next="//@patients.19/@workloads.6" />
+    <workloads prev="//@patients.19/@workloads.5" patient="//@patients.19" workloadValue="2" minNurseSkill="0" next="//@patients.19/@workloads.7" />
+    <workloads prev="//@patients.19/@workloads.6" patient="//@patients.19" workloadValue="2" minNurseSkill="0" next="//@patients.19/@workloads.8" />
+    <workloads prev="//@patients.19/@workloads.7" patient="//@patients.19" workloadValue="1" minNurseSkill="0" next="//@patients.19/@workloads.9" />
+    <workloads prev="//@patients.19/@workloads.8" patient="//@patients.19" workloadValue="1" minNurseSkill="2" next="//@patients.19/@workloads.10" />
+    <workloads prev="//@patients.19/@workloads.9" patient="//@patients.19" workloadValue="3" minNurseSkill="2" next="//@patients.19/@workloads.11" />
+    <workloads prev="//@patients.19/@workloads.10" patient="//@patients.19" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.20/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.4" name="p13" earliestDay="8" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.20" workloadValue="3" minNurseSkill="1" next="//@patients.20/@workloads.1" />
+    <workloads prev="//@patients.20/@workloads.0" patient="//@patients.20" workloadValue="2" minNurseSkill="1" next="//@patients.20/@workloads.2" />
+    <workloads prev="//@patients.20/@workloads.1" patient="//@patients.20" workloadValue="2" minNurseSkill="1" next="//@patients.20/@workloads.3" />
+    <workloads prev="//@patients.20/@workloads.2" patient="//@patients.20" workloadValue="3" minNurseSkill="2" next="//@patients.20/@workloads.4" />
+    <workloads prev="//@patients.20/@workloads.3" patient="//@patients.20" workloadValue="1" minNurseSkill="2" next="//@patients.20/@workloads.5" />
+    <workloads prev="//@patients.20/@workloads.4" patient="//@patients.20" workloadValue="1" minNurseSkill="0" next="//@patients.20/@workloads.6" />
+    <workloads prev="//@patients.20/@workloads.5" patient="//@patients.20" workloadValue="1" minNurseSkill="2" next="//@patients.20/@workloads.7" />
+    <workloads prev="//@patients.20/@workloads.6" patient="//@patients.20" workloadValue="1" minNurseSkill="0" next="//@patients.20/@workloads.8" />
+    <workloads prev="//@patients.20/@workloads.7" patient="//@patients.20" workloadValue="1" minNurseSkill="0" next="//@patients.20/@workloads.9" />
+    <workloads prev="//@patients.20/@workloads.8" patient="//@patients.20" workloadValue="1" minNurseSkill="0" next="//@patients.20/@workloads.10" />
+    <workloads prev="//@patients.20/@workloads.9" patient="//@patients.20" workloadValue="3" minNurseSkill="0" next="//@patients.20/@workloads.11" />
+    <workloads prev="//@patients.20/@workloads.10" patient="//@patients.20" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.21/@workloads.0" surgeon="//@surgeons.0" name="p14" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="7" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.21" workloadValue="2" minNurseSkill="0" next="//@patients.21/@workloads.1" />
+    <workloads prev="//@patients.21/@workloads.0" patient="//@patients.21" workloadValue="2" minNurseSkill="2" next="//@patients.21/@workloads.2" />
+    <workloads prev="//@patients.21/@workloads.1" patient="//@patients.21" workloadValue="2" minNurseSkill="0" next="//@patients.21/@workloads.3" />
+    <workloads prev="//@patients.21/@workloads.2" patient="//@patients.21" workloadValue="3" minNurseSkill="0" next="//@patients.21/@workloads.4" />
+    <workloads prev="//@patients.21/@workloads.3" patient="//@patients.21" workloadValue="3" minNurseSkill="2" next="//@patients.21/@workloads.5" />
+    <workloads prev="//@patients.21/@workloads.4" patient="//@patients.21" workloadValue="2" minNurseSkill="1" next="//@patients.21/@workloads.6" />
+    <workloads prev="//@patients.21/@workloads.5" patient="//@patients.21" workloadValue="2" minNurseSkill="2" next="//@patients.21/@workloads.7" />
+    <workloads prev="//@patients.21/@workloads.6" patient="//@patients.21" workloadValue="2" minNurseSkill="0" next="//@patients.21/@workloads.8" />
+    <workloads prev="//@patients.21/@workloads.7" patient="//@patients.21" workloadValue="2" minNurseSkill="1" next="//@patients.21/@workloads.9" />
+    <workloads prev="//@patients.21/@workloads.8" patient="//@patients.21" workloadValue="3" minNurseSkill="0" next="//@patients.21/@workloads.10" />
+    <workloads prev="//@patients.21/@workloads.9" patient="//@patients.21" workloadValue="3" minNurseSkill="2" next="//@patients.21/@workloads.11" />
+    <workloads prev="//@patients.21/@workloads.10" patient="//@patients.21" workloadValue="2" minNurseSkill="0" next="//@patients.21/@workloads.12" />
+    <workloads prev="//@patients.21/@workloads.11" patient="//@patients.21" workloadValue="3" minNurseSkill="2" next="//@patients.21/@workloads.13" />
+    <workloads prev="//@patients.21/@workloads.12" patient="//@patients.21" workloadValue="2" minNurseSkill="2" next="//@patients.21/@workloads.14" />
+    <workloads prev="//@patients.21/@workloads.13" patient="//@patients.21" workloadValue="1" minNurseSkill="0" next="//@patients.21/@workloads.15" />
+    <workloads prev="//@patients.21/@workloads.14" patient="//@patients.21" workloadValue="3" minNurseSkill="1" next="//@patients.21/@workloads.16" />
+    <workloads prev="//@patients.21/@workloads.15" patient="//@patients.21" workloadValue="3" minNurseSkill="2" next="//@patients.21/@workloads.17" />
+    <workloads prev="//@patients.21/@workloads.16" patient="//@patients.21" workloadValue="2" minNurseSkill="0" next="//@patients.21/@workloads.18" />
+    <workloads prev="//@patients.21/@workloads.17" patient="//@patients.21" workloadValue="3" minNurseSkill="2" next="//@patients.21/@workloads.19" />
+    <workloads prev="//@patients.21/@workloads.18" patient="//@patients.21" workloadValue="2" minNurseSkill="1" next="//@patients.21/@workloads.20" />
+    <workloads prev="//@patients.21/@workloads.19" patient="//@patients.21" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.22/@workloads.0" surgeon="//@surgeons.0" name="p15" earliestDay="11" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="7" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.22" workloadValue="2" minNurseSkill="2" next="//@patients.22/@workloads.1" />
+    <workloads prev="//@patients.22/@workloads.0" patient="//@patients.22" workloadValue="2" minNurseSkill="1" next="//@patients.22/@workloads.2" />
+    <workloads prev="//@patients.22/@workloads.1" patient="//@patients.22" workloadValue="1" minNurseSkill="1" next="//@patients.22/@workloads.3" />
+    <workloads prev="//@patients.22/@workloads.2" patient="//@patients.22" workloadValue="2" minNurseSkill="2" next="//@patients.22/@workloads.4" />
+    <workloads prev="//@patients.22/@workloads.3" patient="//@patients.22" workloadValue="2" minNurseSkill="1" next="//@patients.22/@workloads.5" />
+    <workloads prev="//@patients.22/@workloads.4" patient="//@patients.22" workloadValue="1" minNurseSkill="1" next="//@patients.22/@workloads.6" />
+    <workloads prev="//@patients.22/@workloads.5" patient="//@patients.22" workloadValue="2" minNurseSkill="0" next="//@patients.22/@workloads.7" />
+    <workloads prev="//@patients.22/@workloads.6" patient="//@patients.22" workloadValue="2" minNurseSkill="2" next="//@patients.22/@workloads.8" />
+    <workloads prev="//@patients.22/@workloads.7" patient="//@patients.22" workloadValue="1" minNurseSkill="0" next="//@patients.22/@workloads.9" />
+    <workloads prev="//@patients.22/@workloads.8" patient="//@patients.22" workloadValue="3" minNurseSkill="0" next="//@patients.22/@workloads.10" />
+    <workloads prev="//@patients.22/@workloads.9" patient="//@patients.22" workloadValue="2" minNurseSkill="1" next="//@patients.22/@workloads.11" />
+    <workloads prev="//@patients.22/@workloads.10" patient="//@patients.22" workloadValue="1" minNurseSkill="1" next="//@patients.22/@workloads.12" />
+    <workloads prev="//@patients.22/@workloads.11" patient="//@patients.22" workloadValue="2" minNurseSkill="2" next="//@patients.22/@workloads.13" />
+    <workloads prev="//@patients.22/@workloads.12" patient="//@patients.22" workloadValue="2" minNurseSkill="0" next="//@patients.22/@workloads.14" />
+    <workloads prev="//@patients.22/@workloads.13" patient="//@patients.22" workloadValue="1" minNurseSkill="0" next="//@patients.22/@workloads.15" />
+    <workloads prev="//@patients.22/@workloads.14" patient="//@patients.22" workloadValue="2" minNurseSkill="2" next="//@patients.22/@workloads.16" />
+    <workloads prev="//@patients.22/@workloads.15" patient="//@patients.22" workloadValue="3" minNurseSkill="1" next="//@patients.22/@workloads.17" />
+    <workloads prev="//@patients.22/@workloads.16" patient="//@patients.22" workloadValue="1" minNurseSkill="0" next="//@patients.22/@workloads.18" />
+    <workloads prev="//@patients.22/@workloads.17" patient="//@patients.22" workloadValue="1" minNurseSkill="2" next="//@patients.22/@workloads.19" />
+    <workloads prev="//@patients.22/@workloads.18" patient="//@patients.22" workloadValue="3" minNurseSkill="0" next="//@patients.22/@workloads.20" />
+    <workloads prev="//@patients.22/@workloads.19" patient="//@patients.22" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.23/@workloads.0" surgeon="//@surgeons.0" name="p16" earliestDay="1" dueDay="16" mandatory="true" ageGroup="1" gender="A" stayLength="4" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.23" workloadValue="2" minNurseSkill="2" next="//@patients.23/@workloads.1" />
+    <workloads prev="//@patients.23/@workloads.0" patient="//@patients.23" workloadValue="2" minNurseSkill="0" next="//@patients.23/@workloads.2" />
+    <workloads prev="//@patients.23/@workloads.1" patient="//@patients.23" workloadValue="1" minNurseSkill="0" next="//@patients.23/@workloads.3" />
+    <workloads prev="//@patients.23/@workloads.2" patient="//@patients.23" workloadValue="2" minNurseSkill="2" next="//@patients.23/@workloads.4" />
+    <workloads prev="//@patients.23/@workloads.3" patient="//@patients.23" workloadValue="3" minNurseSkill="1" next="//@patients.23/@workloads.5" />
+    <workloads prev="//@patients.23/@workloads.4" patient="//@patients.23" workloadValue="1" minNurseSkill="1" next="//@patients.23/@workloads.6" />
+    <workloads prev="//@patients.23/@workloads.5" patient="//@patients.23" workloadValue="2" minNurseSkill="0" next="//@patients.23/@workloads.7" />
+    <workloads prev="//@patients.23/@workloads.6" patient="//@patients.23" workloadValue="3" minNurseSkill="1" next="//@patients.23/@workloads.8" />
+    <workloads prev="//@patients.23/@workloads.7" patient="//@patients.23" workloadValue="1" minNurseSkill="0" next="//@patients.23/@workloads.9" />
+    <workloads prev="//@patients.23/@workloads.8" patient="//@patients.23" workloadValue="1" minNurseSkill="1" next="//@patients.23/@workloads.10" />
+    <workloads prev="//@patients.23/@workloads.9" patient="//@patients.23" workloadValue="3" minNurseSkill="1" next="//@patients.23/@workloads.11" />
+    <workloads prev="//@patients.23/@workloads.10" patient="//@patients.23" workloadValue="2" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.24/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.2" name="p17" earliestDay="1" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.24" workloadValue="3" minNurseSkill="1" next="//@patients.24/@workloads.1" />
+    <workloads prev="//@patients.24/@workloads.0" patient="//@patients.24" workloadValue="2" minNurseSkill="2" next="//@patients.24/@workloads.2" />
+    <workloads prev="//@patients.24/@workloads.1" patient="//@patients.24" workloadValue="1" minNurseSkill="0" next="//@patients.24/@workloads.3" />
+    <workloads prev="//@patients.24/@workloads.2" patient="//@patients.24" workloadValue="3" minNurseSkill="0" next="//@patients.24/@workloads.4" />
+    <workloads prev="//@patients.24/@workloads.3" patient="//@patients.24" workloadValue="2" minNurseSkill="0" next="//@patients.24/@workloads.5" />
+    <workloads prev="//@patients.24/@workloads.4" patient="//@patients.24" workloadValue="1" minNurseSkill="1" next="//@patients.24/@workloads.6" />
+    <workloads prev="//@patients.24/@workloads.5" patient="//@patients.24" workloadValue="3" minNurseSkill="2" next="//@patients.24/@workloads.7" />
+    <workloads prev="//@patients.24/@workloads.6" patient="//@patients.24" workloadValue="1" minNurseSkill="1" next="//@patients.24/@workloads.8" />
+    <workloads prev="//@patients.24/@workloads.7" patient="//@patients.24" workloadValue="1" minNurseSkill="0" next="//@patients.24/@workloads.9" />
+    <workloads prev="//@patients.24/@workloads.8" patient="//@patients.24" workloadValue="1" minNurseSkill="0" next="//@patients.24/@workloads.10" />
+    <workloads prev="//@patients.24/@workloads.9" patient="//@patients.24" workloadValue="1" minNurseSkill="2" next="//@patients.24/@workloads.11" />
+    <workloads prev="//@patients.24/@workloads.10" patient="//@patients.24" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.25/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.2" name="p18" earliestDay="3" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="6" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.25" workloadValue="3" minNurseSkill="1" next="//@patients.25/@workloads.1" />
+    <workloads prev="//@patients.25/@workloads.0" patient="//@patients.25" workloadValue="2" minNurseSkill="1" next="//@patients.25/@workloads.2" />
+    <workloads prev="//@patients.25/@workloads.1" patient="//@patients.25" workloadValue="2" minNurseSkill="0" next="//@patients.25/@workloads.3" />
+    <workloads prev="//@patients.25/@workloads.2" patient="//@patients.25" workloadValue="3" minNurseSkill="0" next="//@patients.25/@workloads.4" />
+    <workloads prev="//@patients.25/@workloads.3" patient="//@patients.25" workloadValue="3" minNurseSkill="2" next="//@patients.25/@workloads.5" />
+    <workloads prev="//@patients.25/@workloads.4" patient="//@patients.25" workloadValue="1" minNurseSkill="0" next="//@patients.25/@workloads.6" />
+    <workloads prev="//@patients.25/@workloads.5" patient="//@patients.25" workloadValue="3" minNurseSkill="0" next="//@patients.25/@workloads.7" />
+    <workloads prev="//@patients.25/@workloads.6" patient="//@patients.25" workloadValue="3" minNurseSkill="2" next="//@patients.25/@workloads.8" />
+    <workloads prev="//@patients.25/@workloads.7" patient="//@patients.25" workloadValue="1" minNurseSkill="0" next="//@patients.25/@workloads.9" />
+    <workloads prev="//@patients.25/@workloads.8" patient="//@patients.25" workloadValue="3" minNurseSkill="0" next="//@patients.25/@workloads.10" />
+    <workloads prev="//@patients.25/@workloads.9" patient="//@patients.25" workloadValue="3" minNurseSkill="0" next="//@patients.25/@workloads.11" />
+    <workloads prev="//@patients.25/@workloads.10" patient="//@patients.25" workloadValue="1" minNurseSkill="0" next="//@patients.25/@workloads.12" />
+    <workloads prev="//@patients.25/@workloads.11" patient="//@patients.25" workloadValue="2" minNurseSkill="0" next="//@patients.25/@workloads.13" />
+    <workloads prev="//@patients.25/@workloads.12" patient="//@patients.25" workloadValue="1" minNurseSkill="1" next="//@patients.25/@workloads.14" />
+    <workloads prev="//@patients.25/@workloads.13" patient="//@patients.25" workloadValue="1" minNurseSkill="0" next="//@patients.25/@workloads.15" />
+    <workloads prev="//@patients.25/@workloads.14" patient="//@patients.25" workloadValue="1" minNurseSkill="2" next="//@patients.25/@workloads.16" />
+    <workloads prev="//@patients.25/@workloads.15" patient="//@patients.25" workloadValue="3" minNurseSkill="1" next="//@patients.25/@workloads.17" />
+    <workloads prev="//@patients.25/@workloads.16" patient="//@patients.25" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.26/@workloads.0" surgeon="//@surgeons.0" name="p19" earliestDay="1" dueDay="17" mandatory="true" ageGroup="2" gender="A" stayLength="4" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.26" workloadValue="2" minNurseSkill="1" next="//@patients.26/@workloads.1" />
+    <workloads prev="//@patients.26/@workloads.0" patient="//@patients.26" workloadValue="2" minNurseSkill="1" next="//@patients.26/@workloads.2" />
+    <workloads prev="//@patients.26/@workloads.1" patient="//@patients.26" workloadValue="2" minNurseSkill="0" next="//@patients.26/@workloads.3" />
+    <workloads prev="//@patients.26/@workloads.2" patient="//@patients.26" workloadValue="2" minNurseSkill="0" next="//@patients.26/@workloads.4" />
+    <workloads prev="//@patients.26/@workloads.3" patient="//@patients.26" workloadValue="3" minNurseSkill="0" next="//@patients.26/@workloads.5" />
+    <workloads prev="//@patients.26/@workloads.4" patient="//@patients.26" workloadValue="1" minNurseSkill="0" next="//@patients.26/@workloads.6" />
+    <workloads prev="//@patients.26/@workloads.5" patient="//@patients.26" workloadValue="2" minNurseSkill="2" next="//@patients.26/@workloads.7" />
+    <workloads prev="//@patients.26/@workloads.6" patient="//@patients.26" workloadValue="2" minNurseSkill="2" next="//@patients.26/@workloads.8" />
+    <workloads prev="//@patients.26/@workloads.7" patient="//@patients.26" workloadValue="1" minNurseSkill="0" next="//@patients.26/@workloads.9" />
+    <workloads prev="//@patients.26/@workloads.8" patient="//@patients.26" workloadValue="2" minNurseSkill="2" next="//@patients.26/@workloads.10" />
+    <workloads prev="//@patients.26/@workloads.9" patient="//@patients.26" workloadValue="2" minNurseSkill="1" next="//@patients.26/@workloads.11" />
+    <workloads prev="//@patients.26/@workloads.10" patient="//@patients.26" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.27/@workloads.0" surgeon="//@surgeons.0" name="p20" earliestDay="7" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.27" workloadValue="2" minNurseSkill="0" next="//@patients.27/@workloads.1" />
+    <workloads prev="//@patients.27/@workloads.0" patient="//@patients.27" workloadValue="2" minNurseSkill="0" next="//@patients.27/@workloads.2" />
+    <workloads prev="//@patients.27/@workloads.1" patient="//@patients.27" workloadValue="1" minNurseSkill="1" next="//@patients.27/@workloads.3" />
+    <workloads prev="//@patients.27/@workloads.2" patient="//@patients.27" workloadValue="2" minNurseSkill="0" next="//@patients.27/@workloads.4" />
+    <workloads prev="//@patients.27/@workloads.3" patient="//@patients.27" workloadValue="2" minNurseSkill="2" next="//@patients.27/@workloads.5" />
+    <workloads prev="//@patients.27/@workloads.4" patient="//@patients.27" workloadValue="1" minNurseSkill="0" next="//@patients.27/@workloads.6" />
+    <workloads prev="//@patients.27/@workloads.5" patient="//@patients.27" workloadValue="2" minNurseSkill="2" next="//@patients.27/@workloads.7" />
+    <workloads prev="//@patients.27/@workloads.6" patient="//@patients.27" workloadValue="2" minNurseSkill="0" next="//@patients.27/@workloads.8" />
+    <workloads prev="//@patients.27/@workloads.7" patient="//@patients.27" workloadValue="1" minNurseSkill="0" next="//@patients.27/@workloads.9" />
+    <workloads prev="//@patients.27/@workloads.8" patient="//@patients.27" workloadValue="2" minNurseSkill="2" next="//@patients.27/@workloads.10" />
+    <workloads prev="//@patients.27/@workloads.9" patient="//@patients.27" workloadValue="1" minNurseSkill="2" next="//@patients.27/@workloads.11" />
+    <workloads prev="//@patients.27/@workloads.10" patient="//@patients.27" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.28/@workloads.0" surgeon="//@surgeons.0" name="p21" earliestDay="1" dueDay="100" mandatory="false" ageGroup="1" gender="B" stayLength="4" surgeryDuration="60" isOccupant="false">
+    <workloads patient="//@patients.28" workloadValue="3" minNurseSkill="2" next="//@patients.28/@workloads.1" />
+    <workloads prev="//@patients.28/@workloads.0" patient="//@patients.28" workloadValue="3" minNurseSkill="1" next="//@patients.28/@workloads.2" />
+    <workloads prev="//@patients.28/@workloads.1" patient="//@patients.28" workloadValue="1" minNurseSkill="0" next="//@patients.28/@workloads.3" />
+    <workloads prev="//@patients.28/@workloads.2" patient="//@patients.28" workloadValue="2" minNurseSkill="1" next="//@patients.28/@workloads.4" />
+    <workloads prev="//@patients.28/@workloads.3" patient="//@patients.28" workloadValue="2" minNurseSkill="1" next="//@patients.28/@workloads.5" />
+    <workloads prev="//@patients.28/@workloads.4" patient="//@patients.28" workloadValue="1" minNurseSkill="0" next="//@patients.28/@workloads.6" />
+    <workloads prev="//@patients.28/@workloads.5" patient="//@patients.28" workloadValue="3" minNurseSkill="1" next="//@patients.28/@workloads.7" />
+    <workloads prev="//@patients.28/@workloads.6" patient="//@patients.28" workloadValue="1" minNurseSkill="2" next="//@patients.28/@workloads.8" />
+    <workloads prev="//@patients.28/@workloads.7" patient="//@patients.28" workloadValue="2" minNurseSkill="0" next="//@patients.28/@workloads.9" />
+    <workloads prev="//@patients.28/@workloads.8" patient="//@patients.28" workloadValue="1" minNurseSkill="2" next="//@patients.28/@workloads.10" />
+    <workloads prev="//@patients.28/@workloads.9" patient="//@patients.28" workloadValue="2" minNurseSkill="0" next="//@patients.28/@workloads.11" />
+    <workloads prev="//@patients.28/@workloads.10" patient="//@patients.28" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.29/@workloads.0" surgeon="//@surgeons.0" name="p22" earliestDay="8" dueDay="19" mandatory="true" ageGroup="2" gender="A" stayLength="12" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.1" />
+    <workloads prev="//@patients.29/@workloads.0" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.2" />
+    <workloads prev="//@patients.29/@workloads.1" patient="//@patients.29" workloadValue="1" minNurseSkill="1" next="//@patients.29/@workloads.3" />
+    <workloads prev="//@patients.29/@workloads.2" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.4" />
+    <workloads prev="//@patients.29/@workloads.3" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.5" />
+    <workloads prev="//@patients.29/@workloads.4" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.6" />
+    <workloads prev="//@patients.29/@workloads.5" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.7" />
+    <workloads prev="//@patients.29/@workloads.6" patient="//@patients.29" workloadValue="3" minNurseSkill="1" next="//@patients.29/@workloads.8" />
+    <workloads prev="//@patients.29/@workloads.7" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.9" />
+    <workloads prev="//@patients.29/@workloads.8" patient="//@patients.29" workloadValue="3" minNurseSkill="0" next="//@patients.29/@workloads.10" />
+    <workloads prev="//@patients.29/@workloads.9" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.11" />
+    <workloads prev="//@patients.29/@workloads.10" patient="//@patients.29" workloadValue="1" minNurseSkill="1" next="//@patients.29/@workloads.12" />
+    <workloads prev="//@patients.29/@workloads.11" patient="//@patients.29" workloadValue="3" minNurseSkill="2" next="//@patients.29/@workloads.13" />
+    <workloads prev="//@patients.29/@workloads.12" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.14" />
+    <workloads prev="//@patients.29/@workloads.13" patient="//@patients.29" workloadValue="1" minNurseSkill="1" next="//@patients.29/@workloads.15" />
+    <workloads prev="//@patients.29/@workloads.14" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.16" />
+    <workloads prev="//@patients.29/@workloads.15" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.17" />
+    <workloads prev="//@patients.29/@workloads.16" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.18" />
+    <workloads prev="//@patients.29/@workloads.17" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.19" />
+    <workloads prev="//@patients.29/@workloads.18" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.20" />
+    <workloads prev="//@patients.29/@workloads.19" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.21" />
+    <workloads prev="//@patients.29/@workloads.20" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.22" />
+    <workloads prev="//@patients.29/@workloads.21" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.23" />
+    <workloads prev="//@patients.29/@workloads.22" patient="//@patients.29" workloadValue="1" minNurseSkill="0" next="//@patients.29/@workloads.24" />
+    <workloads prev="//@patients.29/@workloads.23" patient="//@patients.29" workloadValue="3" minNurseSkill="2" next="//@patients.29/@workloads.25" />
+    <workloads prev="//@patients.29/@workloads.24" patient="//@patients.29" workloadValue="3" minNurseSkill="1" next="//@patients.29/@workloads.26" />
+    <workloads prev="//@patients.29/@workloads.25" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.27" />
+    <workloads prev="//@patients.29/@workloads.26" patient="//@patients.29" workloadValue="3" minNurseSkill="1" next="//@patients.29/@workloads.28" />
+    <workloads prev="//@patients.29/@workloads.27" patient="//@patients.29" workloadValue="2" minNurseSkill="0" next="//@patients.29/@workloads.29" />
+    <workloads prev="//@patients.29/@workloads.28" patient="//@patients.29" workloadValue="2" minNurseSkill="1" next="//@patients.29/@workloads.30" />
+    <workloads prev="//@patients.29/@workloads.29" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.31" />
+    <workloads prev="//@patients.29/@workloads.30" patient="//@patients.29" workloadValue="2" minNurseSkill="2" next="//@patients.29/@workloads.32" />
+    <workloads prev="//@patients.29/@workloads.31" patient="//@patients.29" workloadValue="1" minNurseSkill="1" next="//@patients.29/@workloads.33" />
+    <workloads prev="//@patients.29/@workloads.32" patient="//@patients.29" workloadValue="1" minNurseSkill="2" next="//@patients.29/@workloads.34" />
+    <workloads prev="//@patients.29/@workloads.33" patient="//@patients.29" workloadValue="3" minNurseSkill="0" next="//@patients.29/@workloads.35" />
+    <workloads prev="//@patients.29/@workloads.34" patient="//@patients.29" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.30/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1" name="p23" earliestDay="3" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="6" surgeryDuration="300" isOccupant="false">
+    <workloads patient="//@patients.30" workloadValue="2" minNurseSkill="2" next="//@patients.30/@workloads.1" />
+    <workloads prev="//@patients.30/@workloads.0" patient="//@patients.30" workloadValue="3" minNurseSkill="1" next="//@patients.30/@workloads.2" />
+    <workloads prev="//@patients.30/@workloads.1" patient="//@patients.30" workloadValue="2" minNurseSkill="0" next="//@patients.30/@workloads.3" />
+    <workloads prev="//@patients.30/@workloads.2" patient="//@patients.30" workloadValue="2" minNurseSkill="0" next="//@patients.30/@workloads.4" />
+    <workloads prev="//@patients.30/@workloads.3" patient="//@patients.30" workloadValue="3" minNurseSkill="1" next="//@patients.30/@workloads.5" />
+    <workloads prev="//@patients.30/@workloads.4" patient="//@patients.30" workloadValue="2" minNurseSkill="0" next="//@patients.30/@workloads.6" />
+    <workloads prev="//@patients.30/@workloads.5" patient="//@patients.30" workloadValue="3" minNurseSkill="1" next="//@patients.30/@workloads.7" />
+    <workloads prev="//@patients.30/@workloads.6" patient="//@patients.30" workloadValue="2" minNurseSkill="1" next="//@patients.30/@workloads.8" />
+    <workloads prev="//@patients.30/@workloads.7" patient="//@patients.30" workloadValue="2" minNurseSkill="0" next="//@patients.30/@workloads.9" />
+    <workloads prev="//@patients.30/@workloads.8" patient="//@patients.30" workloadValue="2" minNurseSkill="2" next="//@patients.30/@workloads.10" />
+    <workloads prev="//@patients.30/@workloads.9" patient="//@patients.30" workloadValue="3" minNurseSkill="2" next="//@patients.30/@workloads.11" />
+    <workloads prev="//@patients.30/@workloads.10" patient="//@patients.30" workloadValue="2" minNurseSkill="0" next="//@patients.30/@workloads.12" />
+    <workloads prev="//@patients.30/@workloads.11" patient="//@patients.30" workloadValue="2" minNurseSkill="2" next="//@patients.30/@workloads.13" />
+    <workloads prev="//@patients.30/@workloads.12" patient="//@patients.30" workloadValue="3" minNurseSkill="0" next="//@patients.30/@workloads.14" />
+    <workloads prev="//@patients.30/@workloads.13" patient="//@patients.30" workloadValue="1" minNurseSkill="0" next="//@patients.30/@workloads.15" />
+    <workloads prev="//@patients.30/@workloads.14" patient="//@patients.30" workloadValue="3" minNurseSkill="2" next="//@patients.30/@workloads.16" />
+    <workloads prev="//@patients.30/@workloads.15" patient="//@patients.30" workloadValue="3" minNurseSkill="0" next="//@patients.30/@workloads.17" />
+    <workloads prev="//@patients.30/@workloads.16" patient="//@patients.30" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.31/@workloads.0" surgeon="//@surgeons.0" name="p24" earliestDay="7" dueDay="13" mandatory="true" ageGroup="1" gender="B" stayLength="2" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.31" workloadValue="3" minNurseSkill="1" next="//@patients.31/@workloads.1" />
+    <workloads prev="//@patients.31/@workloads.0" patient="//@patients.31" workloadValue="2" minNurseSkill="1" next="//@patients.31/@workloads.2" />
+    <workloads prev="//@patients.31/@workloads.1" patient="//@patients.31" workloadValue="1" minNurseSkill="0" next="//@patients.31/@workloads.3" />
+    <workloads prev="//@patients.31/@workloads.2" patient="//@patients.31" workloadValue="3" minNurseSkill="0" next="//@patients.31/@workloads.4" />
+    <workloads prev="//@patients.31/@workloads.3" patient="//@patients.31" workloadValue="1" minNurseSkill="1" next="//@patients.31/@workloads.5" />
+    <workloads prev="//@patients.31/@workloads.4" patient="//@patients.31" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.32/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.4" name="p25" earliestDay="13" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="6" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.1" />
+    <workloads prev="//@patients.32/@workloads.0" patient="//@patients.32" workloadValue="2" minNurseSkill="2" next="//@patients.32/@workloads.2" />
+    <workloads prev="//@patients.32/@workloads.1" patient="//@patients.32" workloadValue="2" minNurseSkill="1" next="//@patients.32/@workloads.3" />
+    <workloads prev="//@patients.32/@workloads.2" patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.4" />
+    <workloads prev="//@patients.32/@workloads.3" patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.5" />
+    <workloads prev="//@patients.32/@workloads.4" patient="//@patients.32" workloadValue="1" minNurseSkill="1" next="//@patients.32/@workloads.6" />
+    <workloads prev="//@patients.32/@workloads.5" patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.7" />
+    <workloads prev="//@patients.32/@workloads.6" patient="//@patients.32" workloadValue="3" minNurseSkill="2" next="//@patients.32/@workloads.8" />
+    <workloads prev="//@patients.32/@workloads.7" patient="//@patients.32" workloadValue="2" minNurseSkill="0" next="//@patients.32/@workloads.9" />
+    <workloads prev="//@patients.32/@workloads.8" patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.10" />
+    <workloads prev="//@patients.32/@workloads.9" patient="//@patients.32" workloadValue="3" minNurseSkill="0" next="//@patients.32/@workloads.11" />
+    <workloads prev="//@patients.32/@workloads.10" patient="//@patients.32" workloadValue="1" minNurseSkill="0" next="//@patients.32/@workloads.12" />
+    <workloads prev="//@patients.32/@workloads.11" patient="//@patients.32" workloadValue="1" minNurseSkill="1" next="//@patients.32/@workloads.13" />
+    <workloads prev="//@patients.32/@workloads.12" patient="//@patients.32" workloadValue="1" minNurseSkill="0" next="//@patients.32/@workloads.14" />
+    <workloads prev="//@patients.32/@workloads.13" patient="//@patients.32" workloadValue="2" minNurseSkill="0" next="//@patients.32/@workloads.15" />
+    <workloads prev="//@patients.32/@workloads.14" patient="//@patients.32" workloadValue="1" minNurseSkill="1" next="//@patients.32/@workloads.16" />
+    <workloads prev="//@patients.32/@workloads.15" patient="//@patients.32" workloadValue="1" minNurseSkill="2" next="//@patients.32/@workloads.17" />
+    <workloads prev="//@patients.32/@workloads.16" patient="//@patients.32" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.33/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1 //@rooms.2" name="p26" earliestDay="11" dueDay="100" mandatory="false" ageGroup="1" gender="B" stayLength="8" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.33" workloadValue="2" minNurseSkill="2" next="//@patients.33/@workloads.1" />
+    <workloads prev="//@patients.33/@workloads.0" patient="//@patients.33" workloadValue="2" minNurseSkill="2" next="//@patients.33/@workloads.2" />
+    <workloads prev="//@patients.33/@workloads.1" patient="//@patients.33" workloadValue="1" minNurseSkill="1" next="//@patients.33/@workloads.3" />
+    <workloads prev="//@patients.33/@workloads.2" patient="//@patients.33" workloadValue="3" minNurseSkill="2" next="//@patients.33/@workloads.4" />
+    <workloads prev="//@patients.33/@workloads.3" patient="//@patients.33" workloadValue="2" minNurseSkill="0" next="//@patients.33/@workloads.5" />
+    <workloads prev="//@patients.33/@workloads.4" patient="//@patients.33" workloadValue="1" minNurseSkill="1" next="//@patients.33/@workloads.6" />
+    <workloads prev="//@patients.33/@workloads.5" patient="//@patients.33" workloadValue="2" minNurseSkill="2" next="//@patients.33/@workloads.7" />
+    <workloads prev="//@patients.33/@workloads.6" patient="//@patients.33" workloadValue="2" minNurseSkill="0" next="//@patients.33/@workloads.8" />
+    <workloads prev="//@patients.33/@workloads.7" patient="//@patients.33" workloadValue="1" minNurseSkill="0" next="//@patients.33/@workloads.9" />
+    <workloads prev="//@patients.33/@workloads.8" patient="//@patients.33" workloadValue="2" minNurseSkill="2" next="//@patients.33/@workloads.10" />
+    <workloads prev="//@patients.33/@workloads.9" patient="//@patients.33" workloadValue="3" minNurseSkill="0" next="//@patients.33/@workloads.11" />
+    <workloads prev="//@patients.33/@workloads.10" patient="//@patients.33" workloadValue="2" minNurseSkill="0" next="//@patients.33/@workloads.12" />
+    <workloads prev="//@patients.33/@workloads.11" patient="//@patients.33" workloadValue="2" minNurseSkill="1" next="//@patients.33/@workloads.13" />
+    <workloads prev="//@patients.33/@workloads.12" patient="//@patients.33" workloadValue="3" minNurseSkill="1" next="//@patients.33/@workloads.14" />
+    <workloads prev="//@patients.33/@workloads.13" patient="//@patients.33" workloadValue="2" minNurseSkill="0" next="//@patients.33/@workloads.15" />
+    <workloads prev="//@patients.33/@workloads.14" patient="//@patients.33" workloadValue="1" minNurseSkill="0" next="//@patients.33/@workloads.16" />
+    <workloads prev="//@patients.33/@workloads.15" patient="//@patients.33" workloadValue="1" minNurseSkill="1" next="//@patients.33/@workloads.17" />
+    <workloads prev="//@patients.33/@workloads.16" patient="//@patients.33" workloadValue="1" minNurseSkill="1" next="//@patients.33/@workloads.18" />
+    <workloads prev="//@patients.33/@workloads.17" patient="//@patients.33" workloadValue="1" minNurseSkill="0" next="//@patients.33/@workloads.19" />
+    <workloads prev="//@patients.33/@workloads.18" patient="//@patients.33" workloadValue="2" minNurseSkill="1" next="//@patients.33/@workloads.20" />
+    <workloads prev="//@patients.33/@workloads.19" patient="//@patients.33" workloadValue="1" minNurseSkill="0" next="//@patients.33/@workloads.21" />
+    <workloads prev="//@patients.33/@workloads.20" patient="//@patients.33" workloadValue="2" minNurseSkill="2" next="//@patients.33/@workloads.22" />
+    <workloads prev="//@patients.33/@workloads.21" patient="//@patients.33" workloadValue="1" minNurseSkill="1" next="//@patients.33/@workloads.23" />
+    <workloads prev="//@patients.33/@workloads.22" patient="//@patients.33" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.34/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.4" name="p27" earliestDay="1" dueDay="100" mandatory="false" ageGroup="1" gender="B" stayLength="3" surgeryDuration="60" isOccupant="false">
+    <workloads patient="//@patients.34" workloadValue="3" minNurseSkill="2" next="//@patients.34/@workloads.1" />
+    <workloads prev="//@patients.34/@workloads.0" patient="//@patients.34" workloadValue="2" minNurseSkill="1" next="//@patients.34/@workloads.2" />
+    <workloads prev="//@patients.34/@workloads.1" patient="//@patients.34" workloadValue="1" minNurseSkill="0" next="//@patients.34/@workloads.3" />
+    <workloads prev="//@patients.34/@workloads.2" patient="//@patients.34" workloadValue="2" minNurseSkill="0" next="//@patients.34/@workloads.4" />
+    <workloads prev="//@patients.34/@workloads.3" patient="//@patients.34" workloadValue="3" minNurseSkill="2" next="//@patients.34/@workloads.5" />
+    <workloads prev="//@patients.34/@workloads.4" patient="//@patients.34" workloadValue="1" minNurseSkill="0" next="//@patients.34/@workloads.6" />
+    <workloads prev="//@patients.34/@workloads.5" patient="//@patients.34" workloadValue="2" minNurseSkill="2" next="//@patients.34/@workloads.7" />
+    <workloads prev="//@patients.34/@workloads.6" patient="//@patients.34" workloadValue="3" minNurseSkill="1" next="//@patients.34/@workloads.8" />
+    <workloads prev="//@patients.34/@workloads.7" patient="//@patients.34" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.35/@workloads.0" surgeon="//@surgeons.0" name="p28" earliestDay="14" dueDay="100" mandatory="false" ageGroup="1" gender="B" stayLength="6" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.35" workloadValue="2" minNurseSkill="1" next="//@patients.35/@workloads.1" />
+    <workloads prev="//@patients.35/@workloads.0" patient="//@patients.35" workloadValue="2" minNurseSkill="1" next="//@patients.35/@workloads.2" />
+    <workloads prev="//@patients.35/@workloads.1" patient="//@patients.35" workloadValue="1" minNurseSkill="1" next="//@patients.35/@workloads.3" />
+    <workloads prev="//@patients.35/@workloads.2" patient="//@patients.35" workloadValue="3" minNurseSkill="0" next="//@patients.35/@workloads.4" />
+    <workloads prev="//@patients.35/@workloads.3" patient="//@patients.35" workloadValue="3" minNurseSkill="1" next="//@patients.35/@workloads.5" />
+    <workloads prev="//@patients.35/@workloads.4" patient="//@patients.35" workloadValue="2" minNurseSkill="0" next="//@patients.35/@workloads.6" />
+    <workloads prev="//@patients.35/@workloads.5" patient="//@patients.35" workloadValue="3" minNurseSkill="0" next="//@patients.35/@workloads.7" />
+    <workloads prev="//@patients.35/@workloads.6" patient="//@patients.35" workloadValue="2" minNurseSkill="0" next="//@patients.35/@workloads.8" />
+    <workloads prev="//@patients.35/@workloads.7" patient="//@patients.35" workloadValue="2" minNurseSkill="1" next="//@patients.35/@workloads.9" />
+    <workloads prev="//@patients.35/@workloads.8" patient="//@patients.35" workloadValue="2" minNurseSkill="1" next="//@patients.35/@workloads.10" />
+    <workloads prev="//@patients.35/@workloads.9" patient="//@patients.35" workloadValue="3" minNurseSkill="0" next="//@patients.35/@workloads.11" />
+    <workloads prev="//@patients.35/@workloads.10" patient="//@patients.35" workloadValue="2" minNurseSkill="0" next="//@patients.35/@workloads.12" />
+    <workloads prev="//@patients.35/@workloads.11" patient="//@patients.35" workloadValue="3" minNurseSkill="1" next="//@patients.35/@workloads.13" />
+    <workloads prev="//@patients.35/@workloads.12" patient="//@patients.35" workloadValue="3" minNurseSkill="0" next="//@patients.35/@workloads.14" />
+    <workloads prev="//@patients.35/@workloads.13" patient="//@patients.35" workloadValue="2" minNurseSkill="1" next="//@patients.35/@workloads.15" />
+    <workloads prev="//@patients.35/@workloads.14" patient="//@patients.35" workloadValue="1" minNurseSkill="0" next="//@patients.35/@workloads.16" />
+    <workloads prev="//@patients.35/@workloads.15" patient="//@patients.35" workloadValue="1" minNurseSkill="0" next="//@patients.35/@workloads.17" />
+    <workloads prev="//@patients.35/@workloads.16" patient="//@patients.35" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.36/@workloads.0" surgeon="//@surgeons.0" name="p29" earliestDay="3" dueDay="100" mandatory="false" ageGroup="1" gender="A" stayLength="2" surgeryDuration="60" isOccupant="false">
+    <workloads patient="//@patients.36" workloadValue="2" minNurseSkill="2" next="//@patients.36/@workloads.1" />
+    <workloads prev="//@patients.36/@workloads.0" patient="//@patients.36" workloadValue="1" minNurseSkill="1" next="//@patients.36/@workloads.2" />
+    <workloads prev="//@patients.36/@workloads.1" patient="//@patients.36" workloadValue="1" minNurseSkill="1" next="//@patients.36/@workloads.3" />
+    <workloads prev="//@patients.36/@workloads.2" patient="//@patients.36" workloadValue="3" minNurseSkill="0" next="//@patients.36/@workloads.4" />
+    <workloads prev="//@patients.36/@workloads.3" patient="//@patients.36" workloadValue="3" minNurseSkill="2" next="//@patients.36/@workloads.5" />
+    <workloads prev="//@patients.36/@workloads.4" patient="//@patients.36" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.37/@workloads.0" surgeon="//@surgeons.0" name="p30" earliestDay="13" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="4" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.37" workloadValue="2" minNurseSkill="1" next="//@patients.37/@workloads.1" />
+    <workloads prev="//@patients.37/@workloads.0" patient="//@patients.37" workloadValue="2" minNurseSkill="2" next="//@patients.37/@workloads.2" />
+    <workloads prev="//@patients.37/@workloads.1" patient="//@patients.37" workloadValue="1" minNurseSkill="0" next="//@patients.37/@workloads.3" />
+    <workloads prev="//@patients.37/@workloads.2" patient="//@patients.37" workloadValue="3" minNurseSkill="2" next="//@patients.37/@workloads.4" />
+    <workloads prev="//@patients.37/@workloads.3" patient="//@patients.37" workloadValue="3" minNurseSkill="1" next="//@patients.37/@workloads.5" />
+    <workloads prev="//@patients.37/@workloads.4" patient="//@patients.37" workloadValue="1" minNurseSkill="1" next="//@patients.37/@workloads.6" />
+    <workloads prev="//@patients.37/@workloads.5" patient="//@patients.37" workloadValue="3" minNurseSkill="2" next="//@patients.37/@workloads.7" />
+    <workloads prev="//@patients.37/@workloads.6" patient="//@patients.37" workloadValue="3" minNurseSkill="0" next="//@patients.37/@workloads.8" />
+    <workloads prev="//@patients.37/@workloads.7" patient="//@patients.37" workloadValue="2" minNurseSkill="0" next="//@patients.37/@workloads.9" />
+    <workloads prev="//@patients.37/@workloads.8" patient="//@patients.37" workloadValue="3" minNurseSkill="0" next="//@patients.37/@workloads.10" />
+    <workloads prev="//@patients.37/@workloads.9" patient="//@patients.37" workloadValue="3" minNurseSkill="2" next="//@patients.37/@workloads.11" />
+    <workloads prev="//@patients.37/@workloads.10" patient="//@patients.37" workloadValue="2" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.38/@workloads.0" surgeon="//@surgeons.0" name="p31" earliestDay="4" dueDay="100" mandatory="false" ageGroup="1" gender="A" stayLength="2" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.38" workloadValue="2" minNurseSkill="2" next="//@patients.38/@workloads.1" />
+    <workloads prev="//@patients.38/@workloads.0" patient="//@patients.38" workloadValue="2" minNurseSkill="2" next="//@patients.38/@workloads.2" />
+    <workloads prev="//@patients.38/@workloads.1" patient="//@patients.38" workloadValue="1" minNurseSkill="0" next="//@patients.38/@workloads.3" />
+    <workloads prev="//@patients.38/@workloads.2" patient="//@patients.38" workloadValue="3" minNurseSkill="2" next="//@patients.38/@workloads.4" />
+    <workloads prev="//@patients.38/@workloads.3" patient="//@patients.38" workloadValue="2" minNurseSkill="2" next="//@patients.38/@workloads.5" />
+    <workloads prev="//@patients.38/@workloads.4" patient="//@patients.38" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.39/@workloads.0" surgeon="//@surgeons.0" name="p32" earliestDay="7" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="6" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.39" workloadValue="3" minNurseSkill="0" next="//@patients.39/@workloads.1" />
+    <workloads prev="//@patients.39/@workloads.0" patient="//@patients.39" workloadValue="2" minNurseSkill="1" next="//@patients.39/@workloads.2" />
+    <workloads prev="//@patients.39/@workloads.1" patient="//@patients.39" workloadValue="1" minNurseSkill="1" next="//@patients.39/@workloads.3" />
+    <workloads prev="//@patients.39/@workloads.2" patient="//@patients.39" workloadValue="2" minNurseSkill="0" next="//@patients.39/@workloads.4" />
+    <workloads prev="//@patients.39/@workloads.3" patient="//@patients.39" workloadValue="2" minNurseSkill="2" next="//@patients.39/@workloads.5" />
+    <workloads prev="//@patients.39/@workloads.4" patient="//@patients.39" workloadValue="2" minNurseSkill="1" next="//@patients.39/@workloads.6" />
+    <workloads prev="//@patients.39/@workloads.5" patient="//@patients.39" workloadValue="2" minNurseSkill="0" next="//@patients.39/@workloads.7" />
+    <workloads prev="//@patients.39/@workloads.6" patient="//@patients.39" workloadValue="3" minNurseSkill="1" next="//@patients.39/@workloads.8" />
+    <workloads prev="//@patients.39/@workloads.7" patient="//@patients.39" workloadValue="2" minNurseSkill="0" next="//@patients.39/@workloads.9" />
+    <workloads prev="//@patients.39/@workloads.8" patient="//@patients.39" workloadValue="2" minNurseSkill="0" next="//@patients.39/@workloads.10" />
+    <workloads prev="//@patients.39/@workloads.9" patient="//@patients.39" workloadValue="2" minNurseSkill="0" next="//@patients.39/@workloads.11" />
+    <workloads prev="//@patients.39/@workloads.10" patient="//@patients.39" workloadValue="1" minNurseSkill="0" next="//@patients.39/@workloads.12" />
+    <workloads prev="//@patients.39/@workloads.11" patient="//@patients.39" workloadValue="2" minNurseSkill="2" next="//@patients.39/@workloads.13" />
+    <workloads prev="//@patients.39/@workloads.12" patient="//@patients.39" workloadValue="3" minNurseSkill="0" next="//@patients.39/@workloads.14" />
+    <workloads prev="//@patients.39/@workloads.13" patient="//@patients.39" workloadValue="1" minNurseSkill="1" next="//@patients.39/@workloads.15" />
+    <workloads prev="//@patients.39/@workloads.14" patient="//@patients.39" workloadValue="2" minNurseSkill="2" next="//@patients.39/@workloads.16" />
+    <workloads prev="//@patients.39/@workloads.15" patient="//@patients.39" workloadValue="1" minNurseSkill="2" next="//@patients.39/@workloads.17" />
+    <workloads prev="//@patients.39/@workloads.16" patient="//@patients.39" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.40/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1" name="p33" earliestDay="8" dueDay="100" mandatory="false" ageGroup="2" gender="B" stayLength="3" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.40" workloadValue="2" minNurseSkill="1" next="//@patients.40/@workloads.1" />
+    <workloads prev="//@patients.40/@workloads.0" patient="//@patients.40" workloadValue="3" minNurseSkill="2" next="//@patients.40/@workloads.2" />
+    <workloads prev="//@patients.40/@workloads.1" patient="//@patients.40" workloadValue="1" minNurseSkill="0" next="//@patients.40/@workloads.3" />
+    <workloads prev="//@patients.40/@workloads.2" patient="//@patients.40" workloadValue="3" minNurseSkill="2" next="//@patients.40/@workloads.4" />
+    <workloads prev="//@patients.40/@workloads.3" patient="//@patients.40" workloadValue="2" minNurseSkill="0" next="//@patients.40/@workloads.5" />
+    <workloads prev="//@patients.40/@workloads.4" patient="//@patients.40" workloadValue="1" minNurseSkill="0" next="//@patients.40/@workloads.6" />
+    <workloads prev="//@patients.40/@workloads.5" patient="//@patients.40" workloadValue="2" minNurseSkill="1" next="//@patients.40/@workloads.7" />
+    <workloads prev="//@patients.40/@workloads.6" patient="//@patients.40" workloadValue="1" minNurseSkill="1" next="//@patients.40/@workloads.8" />
+    <workloads prev="//@patients.40/@workloads.7" patient="//@patients.40" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.41/@workloads.0" surgeon="//@surgeons.0" name="p34" earliestDay="11" dueDay="100" mandatory="false" ageGroup="0" gender="B" stayLength="8" surgeryDuration="300" isOccupant="false">
+    <workloads patient="//@patients.41" workloadValue="3" minNurseSkill="1" next="//@patients.41/@workloads.1" />
+    <workloads prev="//@patients.41/@workloads.0" patient="//@patients.41" workloadValue="2" minNurseSkill="2" next="//@patients.41/@workloads.2" />
+    <workloads prev="//@patients.41/@workloads.1" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.3" />
+    <workloads prev="//@patients.41/@workloads.2" patient="//@patients.41" workloadValue="2" minNurseSkill="1" next="//@patients.41/@workloads.4" />
+    <workloads prev="//@patients.41/@workloads.3" patient="//@patients.41" workloadValue="3" minNurseSkill="0" next="//@patients.41/@workloads.5" />
+    <workloads prev="//@patients.41/@workloads.4" patient="//@patients.41" workloadValue="2" minNurseSkill="1" next="//@patients.41/@workloads.6" />
+    <workloads prev="//@patients.41/@workloads.5" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.7" />
+    <workloads prev="//@patients.41/@workloads.6" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.8" />
+    <workloads prev="//@patients.41/@workloads.7" patient="//@patients.41" workloadValue="1" minNurseSkill="0" next="//@patients.41/@workloads.9" />
+    <workloads prev="//@patients.41/@workloads.8" patient="//@patients.41" workloadValue="2" minNurseSkill="1" next="//@patients.41/@workloads.10" />
+    <workloads prev="//@patients.41/@workloads.9" patient="//@patients.41" workloadValue="3" minNurseSkill="0" next="//@patients.41/@workloads.11" />
+    <workloads prev="//@patients.41/@workloads.10" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.12" />
+    <workloads prev="//@patients.41/@workloads.11" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.13" />
+    <workloads prev="//@patients.41/@workloads.12" patient="//@patients.41" workloadValue="3" minNurseSkill="2" next="//@patients.41/@workloads.14" />
+    <workloads prev="//@patients.41/@workloads.13" patient="//@patients.41" workloadValue="1" minNurseSkill="0" next="//@patients.41/@workloads.15" />
+    <workloads prev="//@patients.41/@workloads.14" patient="//@patients.41" workloadValue="3" minNurseSkill="2" next="//@patients.41/@workloads.16" />
+    <workloads prev="//@patients.41/@workloads.15" patient="//@patients.41" workloadValue="2" minNurseSkill="2" next="//@patients.41/@workloads.17" />
+    <workloads prev="//@patients.41/@workloads.16" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.18" />
+    <workloads prev="//@patients.41/@workloads.17" patient="//@patients.41" workloadValue="2" minNurseSkill="1" next="//@patients.41/@workloads.19" />
+    <workloads prev="//@patients.41/@workloads.18" patient="//@patients.41" workloadValue="1" minNurseSkill="2" next="//@patients.41/@workloads.20" />
+    <workloads prev="//@patients.41/@workloads.19" patient="//@patients.41" workloadValue="2" minNurseSkill="1" next="//@patients.41/@workloads.21" />
+    <workloads prev="//@patients.41/@workloads.20" patient="//@patients.41" workloadValue="2" minNurseSkill="0" next="//@patients.41/@workloads.22" />
+    <workloads prev="//@patients.41/@workloads.21" patient="//@patients.41" workloadValue="1" minNurseSkill="0" next="//@patients.41/@workloads.23" />
+    <workloads prev="//@patients.41/@workloads.22" patient="//@patients.41" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.42/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1" name="p35" earliestDay="7" dueDay="19" mandatory="true" ageGroup="2" gender="B" stayLength="3" surgeryDuration="180" isOccupant="false">
+    <workloads patient="//@patients.42" workloadValue="2" minNurseSkill="2" next="//@patients.42/@workloads.1" />
+    <workloads prev="//@patients.42/@workloads.0" patient="//@patients.42" workloadValue="3" minNurseSkill="2" next="//@patients.42/@workloads.2" />
+    <workloads prev="//@patients.42/@workloads.1" patient="//@patients.42" workloadValue="1" minNurseSkill="0" next="//@patients.42/@workloads.3" />
+    <workloads prev="//@patients.42/@workloads.2" patient="//@patients.42" workloadValue="2" minNurseSkill="0" next="//@patients.42/@workloads.4" />
+    <workloads prev="//@patients.42/@workloads.3" patient="//@patients.42" workloadValue="2" minNurseSkill="0" next="//@patients.42/@workloads.5" />
+    <workloads prev="//@patients.42/@workloads.4" patient="//@patients.42" workloadValue="2" minNurseSkill="0" next="//@patients.42/@workloads.6" />
+    <workloads prev="//@patients.42/@workloads.5" patient="//@patients.42" workloadValue="1" minNurseSkill="1" next="//@patients.42/@workloads.7" />
+    <workloads prev="//@patients.42/@workloads.6" patient="//@patients.42" workloadValue="2" minNurseSkill="0" next="//@patients.42/@workloads.8" />
+    <workloads prev="//@patients.42/@workloads.7" patient="//@patients.42" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.43/@workloads.0" surgeon="//@surgeons.0" name="p36" earliestDay="13" dueDay="100" mandatory="false" ageGroup="1" gender="A" stayLength="6" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.43" workloadValue="2" minNurseSkill="1" next="//@patients.43/@workloads.1" />
+    <workloads prev="//@patients.43/@workloads.0" patient="//@patients.43" workloadValue="2" minNurseSkill="2" next="//@patients.43/@workloads.2" />
+    <workloads prev="//@patients.43/@workloads.1" patient="//@patients.43" workloadValue="2" minNurseSkill="1" next="//@patients.43/@workloads.3" />
+    <workloads prev="//@patients.43/@workloads.2" patient="//@patients.43" workloadValue="2" minNurseSkill="0" next="//@patients.43/@workloads.4" />
+    <workloads prev="//@patients.43/@workloads.3" patient="//@patients.43" workloadValue="3" minNurseSkill="2" next="//@patients.43/@workloads.5" />
+    <workloads prev="//@patients.43/@workloads.4" patient="//@patients.43" workloadValue="1" minNurseSkill="0" next="//@patients.43/@workloads.6" />
+    <workloads prev="//@patients.43/@workloads.5" patient="//@patients.43" workloadValue="2" minNurseSkill="1" next="//@patients.43/@workloads.7" />
+    <workloads prev="//@patients.43/@workloads.6" patient="//@patients.43" workloadValue="3" minNurseSkill="0" next="//@patients.43/@workloads.8" />
+    <workloads prev="//@patients.43/@workloads.7" patient="//@patients.43" workloadValue="2" minNurseSkill="0" next="//@patients.43/@workloads.9" />
+    <workloads prev="//@patients.43/@workloads.8" patient="//@patients.43" workloadValue="3" minNurseSkill="0" next="//@patients.43/@workloads.10" />
+    <workloads prev="//@patients.43/@workloads.9" patient="//@patients.43" workloadValue="2" minNurseSkill="1" next="//@patients.43/@workloads.11" />
+    <workloads prev="//@patients.43/@workloads.10" patient="//@patients.43" workloadValue="1" minNurseSkill="1" next="//@patients.43/@workloads.12" />
+    <workloads prev="//@patients.43/@workloads.11" patient="//@patients.43" workloadValue="2" minNurseSkill="1" next="//@patients.43/@workloads.13" />
+    <workloads prev="//@patients.43/@workloads.12" patient="//@patients.43" workloadValue="1" minNurseSkill="2" next="//@patients.43/@workloads.14" />
+    <workloads prev="//@patients.43/@workloads.13" patient="//@patients.43" workloadValue="2" minNurseSkill="0" next="//@patients.43/@workloads.15" />
+    <workloads prev="//@patients.43/@workloads.14" patient="//@patients.43" workloadValue="1" minNurseSkill="2" next="//@patients.43/@workloads.16" />
+    <workloads prev="//@patients.43/@workloads.15" patient="//@patients.43" workloadValue="2" minNurseSkill="0" next="//@patients.43/@workloads.17" />
+    <workloads prev="//@patients.43/@workloads.16" patient="//@patients.43" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.44/@workloads.0" surgeon="//@surgeons.0" name="p37" earliestDay="4" dueDay="7" mandatory="true" ageGroup="2" gender="A" stayLength="8" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.44" workloadValue="2" minNurseSkill="0" next="//@patients.44/@workloads.1" />
+    <workloads prev="//@patients.44/@workloads.0" patient="//@patients.44" workloadValue="2" minNurseSkill="0" next="//@patients.44/@workloads.2" />
+    <workloads prev="//@patients.44/@workloads.1" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.3" />
+    <workloads prev="//@patients.44/@workloads.2" patient="//@patients.44" workloadValue="2" minNurseSkill="2" next="//@patients.44/@workloads.4" />
+    <workloads prev="//@patients.44/@workloads.3" patient="//@patients.44" workloadValue="3" minNurseSkill="1" next="//@patients.44/@workloads.5" />
+    <workloads prev="//@patients.44/@workloads.4" patient="//@patients.44" workloadValue="2" minNurseSkill="0" next="//@patients.44/@workloads.6" />
+    <workloads prev="//@patients.44/@workloads.5" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.7" />
+    <workloads prev="//@patients.44/@workloads.6" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.8" />
+    <workloads prev="//@patients.44/@workloads.7" patient="//@patients.44" workloadValue="1" minNurseSkill="1" next="//@patients.44/@workloads.9" />
+    <workloads prev="//@patients.44/@workloads.8" patient="//@patients.44" workloadValue="3" minNurseSkill="2" next="//@patients.44/@workloads.10" />
+    <workloads prev="//@patients.44/@workloads.9" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.11" />
+    <workloads prev="//@patients.44/@workloads.10" patient="//@patients.44" workloadValue="1" minNurseSkill="0" next="//@patients.44/@workloads.12" />
+    <workloads prev="//@patients.44/@workloads.11" patient="//@patients.44" workloadValue="2" minNurseSkill="2" next="//@patients.44/@workloads.13" />
+    <workloads prev="//@patients.44/@workloads.12" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.14" />
+    <workloads prev="//@patients.44/@workloads.13" patient="//@patients.44" workloadValue="2" minNurseSkill="0" next="//@patients.44/@workloads.15" />
+    <workloads prev="//@patients.44/@workloads.14" patient="//@patients.44" workloadValue="2" minNurseSkill="1" next="//@patients.44/@workloads.16" />
+    <workloads prev="//@patients.44/@workloads.15" patient="//@patients.44" workloadValue="3" minNurseSkill="1" next="//@patients.44/@workloads.17" />
+    <workloads prev="//@patients.44/@workloads.16" patient="//@patients.44" workloadValue="1" minNurseSkill="1" next="//@patients.44/@workloads.18" />
+    <workloads prev="//@patients.44/@workloads.17" patient="//@patients.44" workloadValue="3" minNurseSkill="0" next="//@patients.44/@workloads.19" />
+    <workloads prev="//@patients.44/@workloads.18" patient="//@patients.44" workloadValue="2" minNurseSkill="2" next="//@patients.44/@workloads.20" />
+    <workloads prev="//@patients.44/@workloads.19" patient="//@patients.44" workloadValue="2" minNurseSkill="0" next="//@patients.44/@workloads.21" />
+    <workloads prev="//@patients.44/@workloads.20" patient="//@patients.44" workloadValue="3" minNurseSkill="1" next="//@patients.44/@workloads.22" />
+    <workloads prev="//@patients.44/@workloads.21" patient="//@patients.44" workloadValue="3" minNurseSkill="1" next="//@patients.44/@workloads.23" />
+    <workloads prev="//@patients.44/@workloads.22" patient="//@patients.44" workloadValue="2" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.45/@workloads.0" surgeon="//@surgeons.0" name="p38" earliestDay="7" dueDay="100" mandatory="false" ageGroup="1" gender="A" stayLength="6" surgeryDuration="240" isOccupant="false">
+    <workloads patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.1" />
+    <workloads prev="//@patients.45/@workloads.0" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.2" />
+    <workloads prev="//@patients.45/@workloads.1" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.3" />
+    <workloads prev="//@patients.45/@workloads.2" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.4" />
+    <workloads prev="//@patients.45/@workloads.3" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.5" />
+    <workloads prev="//@patients.45/@workloads.4" patient="//@patients.45" workloadValue="2" minNurseSkill="1" next="//@patients.45/@workloads.6" />
+    <workloads prev="//@patients.45/@workloads.5" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.7" />
+    <workloads prev="//@patients.45/@workloads.6" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.8" />
+    <workloads prev="//@patients.45/@workloads.7" patient="//@patients.45" workloadValue="1" minNurseSkill="1" next="//@patients.45/@workloads.9" />
+    <workloads prev="//@patients.45/@workloads.8" patient="//@patients.45" workloadValue="3" minNurseSkill="1" next="//@patients.45/@workloads.10" />
+    <workloads prev="//@patients.45/@workloads.9" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.11" />
+    <workloads prev="//@patients.45/@workloads.10" patient="//@patients.45" workloadValue="1" minNurseSkill="0" next="//@patients.45/@workloads.12" />
+    <workloads prev="//@patients.45/@workloads.11" patient="//@patients.45" workloadValue="2" minNurseSkill="2" next="//@patients.45/@workloads.13" />
+    <workloads prev="//@patients.45/@workloads.12" patient="//@patients.45" workloadValue="1" minNurseSkill="0" next="//@patients.45/@workloads.14" />
+    <workloads prev="//@patients.45/@workloads.13" patient="//@patients.45" workloadValue="2" minNurseSkill="0" next="//@patients.45/@workloads.15" />
+    <workloads prev="//@patients.45/@workloads.14" patient="//@patients.45" workloadValue="3" minNurseSkill="1" next="//@patients.45/@workloads.16" />
+    <workloads prev="//@patients.45/@workloads.15" patient="//@patients.45" workloadValue="3" minNurseSkill="0" next="//@patients.45/@workloads.17" />
+    <workloads prev="//@patients.45/@workloads.16" patient="//@patients.45" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.46/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.2 //@rooms.4" name="p39" earliestDay="3" dueDay="100" mandatory="false" ageGroup="2" gender="A" stayLength="6" surgeryDuration="120" isOccupant="false">
+    <workloads patient="//@patients.46" workloadValue="2" minNurseSkill="2" next="//@patients.46/@workloads.1" />
+    <workloads prev="//@patients.46/@workloads.0" patient="//@patients.46" workloadValue="2" minNurseSkill="0" next="//@patients.46/@workloads.2" />
+    <workloads prev="//@patients.46/@workloads.1" patient="//@patients.46" workloadValue="2" minNurseSkill="0" next="//@patients.46/@workloads.3" />
+    <workloads prev="//@patients.46/@workloads.2" patient="//@patients.46" workloadValue="2" minNurseSkill="0" next="//@patients.46/@workloads.4" />
+    <workloads prev="//@patients.46/@workloads.3" patient="//@patients.46" workloadValue="3" minNurseSkill="1" next="//@patients.46/@workloads.5" />
+    <workloads prev="//@patients.46/@workloads.4" patient="//@patients.46" workloadValue="1" minNurseSkill="0" next="//@patients.46/@workloads.6" />
+    <workloads prev="//@patients.46/@workloads.5" patient="//@patients.46" workloadValue="2" minNurseSkill="2" next="//@patients.46/@workloads.7" />
+    <workloads prev="//@patients.46/@workloads.6" patient="//@patients.46" workloadValue="3" minNurseSkill="2" next="//@patients.46/@workloads.8" />
+    <workloads prev="//@patients.46/@workloads.7" patient="//@patients.46" workloadValue="1" minNurseSkill="0" next="//@patients.46/@workloads.9" />
+    <workloads prev="//@patients.46/@workloads.8" patient="//@patients.46" workloadValue="2" minNurseSkill="1" next="//@patients.46/@workloads.10" />
+    <workloads prev="//@patients.46/@workloads.9" patient="//@patients.46" workloadValue="2" minNurseSkill="2" next="//@patients.46/@workloads.11" />
+    <workloads prev="//@patients.46/@workloads.10" patient="//@patients.46" workloadValue="2" minNurseSkill="1" next="//@patients.46/@workloads.12" />
+    <workloads prev="//@patients.46/@workloads.11" patient="//@patients.46" workloadValue="2" minNurseSkill="2" next="//@patients.46/@workloads.13" />
+    <workloads prev="//@patients.46/@workloads.12" patient="//@patients.46" workloadValue="1" minNurseSkill="2" next="//@patients.46/@workloads.14" />
+    <workloads prev="//@patients.46/@workloads.13" patient="//@patients.46" workloadValue="2" minNurseSkill="1" next="//@patients.46/@workloads.15" />
+    <workloads prev="//@patients.46/@workloads.14" patient="//@patients.46" workloadValue="3" minNurseSkill="0" next="//@patients.46/@workloads.16" />
+    <workloads prev="//@patients.46/@workloads.15" patient="//@patients.46" workloadValue="3" minNurseSkill="1" next="//@patients.46/@workloads.17" />
+    <workloads prev="//@patients.46/@workloads.16" patient="//@patients.46" workloadValue="1" minNurseSkill="0" />
+  </patients>
+  <patients firstWorkload="//@patients.47/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.0" name="p40" earliestDay="1" dueDay="17" mandatory="true" ageGroup="2" gender="B" stayLength="9" surgeryDuration="60" isOccupant="false">
+    <workloads patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.1" />
+    <workloads prev="//@patients.47/@workloads.0" patient="//@patients.47" workloadValue="3" minNurseSkill="0" next="//@patients.47/@workloads.2" />
+    <workloads prev="//@patients.47/@workloads.1" patient="//@patients.47" workloadValue="1" minNurseSkill="1" next="//@patients.47/@workloads.3" />
+    <workloads prev="//@patients.47/@workloads.2" patient="//@patients.47" workloadValue="3" minNurseSkill="2" next="//@patients.47/@workloads.4" />
+    <workloads prev="//@patients.47/@workloads.3" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.5" />
+    <workloads prev="//@patients.47/@workloads.4" patient="//@patients.47" workloadValue="1" minNurseSkill="0" next="//@patients.47/@workloads.6" />
+    <workloads prev="//@patients.47/@workloads.5" patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.7" />
+    <workloads prev="//@patients.47/@workloads.6" patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.8" />
+    <workloads prev="//@patients.47/@workloads.7" patient="//@patients.47" workloadValue="1" minNurseSkill="0" next="//@patients.47/@workloads.9" />
+    <workloads prev="//@patients.47/@workloads.8" patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.10" />
+    <workloads prev="//@patients.47/@workloads.9" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.11" />
+    <workloads prev="//@patients.47/@workloads.10" patient="//@patients.47" workloadValue="1" minNurseSkill="1" next="//@patients.47/@workloads.12" />
+    <workloads prev="//@patients.47/@workloads.11" patient="//@patients.47" workloadValue="3" minNurseSkill="1" next="//@patients.47/@workloads.13" />
+    <workloads prev="//@patients.47/@workloads.12" patient="//@patients.47" workloadValue="3" minNurseSkill="1" next="//@patients.47/@workloads.14" />
+    <workloads prev="//@patients.47/@workloads.13" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.15" />
+    <workloads prev="//@patients.47/@workloads.14" patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.16" />
+    <workloads prev="//@patients.47/@workloads.15" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.17" />
+    <workloads prev="//@patients.47/@workloads.16" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.18" />
+    <workloads prev="//@patients.47/@workloads.17" patient="//@patients.47" workloadValue="2" minNurseSkill="1" next="//@patients.47/@workloads.19" />
+    <workloads prev="//@patients.47/@workloads.18" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.20" />
+    <workloads prev="//@patients.47/@workloads.19" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.21" />
+    <workloads prev="//@patients.47/@workloads.20" patient="//@patients.47" workloadValue="2" minNurseSkill="0" next="//@patients.47/@workloads.22" />
+    <workloads prev="//@patients.47/@workloads.21" patient="//@patients.47" workloadValue="3" minNurseSkill="0" next="//@patients.47/@workloads.23" />
+    <workloads prev="//@patients.47/@workloads.22" patient="//@patients.47" workloadValue="1" minNurseSkill="1" next="//@patients.47/@workloads.24" />
+    <workloads prev="//@patients.47/@workloads.23" patient="//@patients.47" workloadValue="2" minNurseSkill="2" next="//@patients.47/@workloads.25" />
+    <workloads prev="//@patients.47/@workloads.24" patient="//@patients.47" workloadValue="3" minNurseSkill="0" next="//@patients.47/@workloads.26" />
+    <workloads prev="//@patients.47/@workloads.25" patient="//@patients.47" workloadValue="1" minNurseSkill="1" />
+  </patients>
+  <patients firstWorkload="//@patients.48/@workloads.0" surgeon="//@surgeons.0" incompatibleRooms="//@rooms.1 //@rooms.2" name="p41" earliestDay="13" dueDay="19" mandatory="true" ageGroup="2" gender="A" stayLength="4" surgeryDuration="90" isOccupant="false">
+    <workloads patient="//@patients.48" workloadValue="2" minNurseSkill="1" next="//@patients.48/@workloads.1" />
+    <workloads prev="//@patients.48/@workloads.0" patient="//@patients.48" workloadValue="2" minNurseSkill="0" next="//@patients.48/@workloads.2" />
+    <workloads prev="//@patients.48/@workloads.1" patient="//@patients.48" workloadValue="2" minNurseSkill="1" next="//@patients.48/@workloads.3" />
+    <workloads prev="//@patients.48/@workloads.2" patient="//@patients.48" workloadValue="2" minNurseSkill="2" next="//@patients.48/@workloads.4" />
+    <workloads prev="//@patients.48/@workloads.3" patient="//@patients.48" workloadValue="2" minNurseSkill="2" next="//@patients.48/@workloads.5" />
+    <workloads prev="//@patients.48/@workloads.4" patient="//@patients.48" workloadValue="2" minNurseSkill="0" next="//@patients.48/@workloads.6" />
+    <workloads prev="//@patients.48/@workloads.5" patient="//@patients.48" workloadValue="2" minNurseSkill="0" next="//@patients.48/@workloads.7" />
+    <workloads prev="//@patients.48/@workloads.6" patient="//@patients.48" workloadValue="3" minNurseSkill="1" next="//@patients.48/@workloads.8" />
+    <workloads prev="//@patients.48/@workloads.7" patient="//@patients.48" workloadValue="2" minNurseSkill="1" next="//@patients.48/@workloads.9" />
+    <workloads prev="//@patients.48/@workloads.8" patient="//@patients.48" workloadValue="2" minNurseSkill="2" next="//@patients.48/@workloads.10" />
+    <workloads prev="//@patients.48/@workloads.9" patient="//@patients.48" workloadValue="1" minNurseSkill="2" next="//@patients.48/@workloads.11" />
+    <workloads prev="//@patients.48/@workloads.10" patient="//@patients.48" workloadValue="2" minNurseSkill="0" />
+  </patients>
+  <genders name="A" />
+  <genders name="B" />
+  <days name="d0" number="0" />
+  <days name="d1" number="1" />
+  <days name="d2" number="2" />
+  <days name="d3" number="3" />
+  <days name="d4" number="4" />
+  <days name="d5" number="5" />
+  <days name="d6" number="6" />
+  <days name="d7" number="7" />
+  <days name="d8" number="8" />
+  <days name="d9" number="9" />
+  <days name="d10" number="10" />
+  <days name="d11" number="11" />
+  <days name="d12" number="12" />
+  <days name="d13" number="13" />
+  <days name="d14" number="14" />
+  <days name="d15" number="15" />
+  <days name="d16" number="16" />
+  <days name="d17" number="17" />
+  <days name="d18" number="18" />
+  <days name="d19" number="19" />
+  <days name="d20" number="20" />
+  <ageGroups group="0" />
+  <ageGroups group="1" />
+  <ageGroups group="2" />
+</ihtcvirtualmetamodel:Root>
