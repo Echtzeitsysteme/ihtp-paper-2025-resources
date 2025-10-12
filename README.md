@@ -9,6 +9,11 @@ This repository holds the GIPS implementation projects and additional documentat
 Our complete problem description and modelling approach of section 3 of the paper is documented in [problem-description.md](./problem-description/problem-description.md).
 
 
+## Solution Description
+
+Our complete solution specification of section 4 of the paper is documented in [solution-description.md](./solution-description/solution-description.md).
+
+
 ## Implementation
 
 The implementation described in section 4 and 5 of the paper can be found in the folder [implementation](./implementation).

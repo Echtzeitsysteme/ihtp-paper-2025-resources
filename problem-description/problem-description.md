@@ -3,11 +3,13 @@
 This document refers to section 3 in the paper.
 The basic modelling and problem description of the IHTP consists of three parts: The *metamodel*, *GT rules*, and *OCL constraints*.
 
+
 ## Metamodel
 
 This section shows the metamodel specified in section 3.1 in the paper.
 
 ![](./metamodel/Ihtcmetamodel.svg)
+
 
 ## GT Rules
 
@@ -24,6 +26,7 @@ This section contains all GT rules for section 3.2 in the paper.
 ![](./gt-rules/FixOperationTheater.svg)
 
 ![](./gt-rules/AssignNurseToRoom.svg)
+
 
 ## OCL Constraints
 

@@ -1,0 +1,90 @@
+// PRA.1: Rule that selects a VirtualShiftToWorkload-Node to be adopted in the final model.
+rule selectShiftToFirstWorkload {
+	p : Patient {
+		- firstWorkload -> w
+	}
+
+	w : Workload {
+		- virtualShift -> vsw
+		- virtualCapacity -> vwc
+	}
+
+	vwc : VirtualWorkloadToCapacity
+
+	vsw : VirtualShiftToWorkload {
+		- requires_virtualWorkloadToCapacity -> vwc
+		.isSelected := true
+	}
+}
+
+// PRA.2: Rule that selects an extending VirtualShiftToWorkload-Node to be adopted in the final model.
+rule selectExtendingShiftToFirstWorkload {
+	prevvsw : VirtualShiftToWorkload {
+		- enables_virtualShiftToWorkload -> nextvsw
+	}
+
+	nextvsw : VirtualShiftToWorkload {
+		.isSelected := true
+		- requires_virtualShiftToWorkload -> prevvsw
+	}
+}
+
+// PRA.3: Rule that selects all VirtualShiftToWorkload-Nodes to be adopted in the final model if they were imported (belong to an occupant).
+rule virtualNodesForOccupant {
+	vsw : VirtualShiftToWorkload {
+		.isSelected := true
+	}
+	# vsw.wasImported == true
+}
+
+
+// SCP.1-3: Rule that selects an operation day for a patient.
+// That includes three edges to be adopted in the final model.
+// I. + II.: between the patient and opTime and between patient and capacity -> Selects a day and OT for the patient
+// III.: between opTime and Capacity to make sure the predefined surgeon of the patient is working in the correct OT on that day
+rule selectOperationDay {
+	p : Patient {
+		- firstWorkload -> w
+		- surgeon -> s
+	}
+
+	s : Surgeon {
+		- opTimes -> opTime
+	}
+
+	opTime : OpTime
+
+	w : Workload {
+		- virtualCapacity -> vwc
+		- virtualOpTime -> vwop
+	}
+
+	vwc : VirtualWorkloadToCapacity {
+		- requires_virtualWorkloadToOpTime -> vwop
+		- capacity -> c
+		.isSelected := true
+	}
+
+	vwop : VirtualWorkloadToOpTime {
+		- requires_virtualOpTimeToCapacity -> vopc
+		- enables_virtual_WorkloadToCapacity -> vwc
+		.isSelected := true
+		- opTime -> opTime
+	}
+
+	vopc : VirtualOpTimeToCapacity {
+		- enables_virtualWorkloadToOpTime -> vwop
+		- capacity -> c
+		.isSelected := true
+	}
+
+	c : Capacity
+
+}
+
+// NPA: Rule that selects an  VirtualShiftToRoster-Node to be adopted in the final model.
+rule selectShiftToRoster {
+	vsr : VirtualShiftToRoster {
+		.isSelected := true
+	}
+}
