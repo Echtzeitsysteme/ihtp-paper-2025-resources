@@ -1,0 +1,34 @@
+// (H1): No gender mix in rooms
+context Shift inv:
+    workload.patient.gender->asSet()->size() <= 1
+
+// (H2*): Compatible rooms only
+context Patient inv:
+   not incompatible::room->includes(firstWorkload.shift.room)
+
+// (H3): No surgeon overtime
+context OpTime inv:
+    workloads.patient.surgeryDuration->sum() <= maxOpTime
+    // MK: occupant -> surgeryDuration = 0
+
+// (H4): No OT overtime
+context Capacity inv:
+     workloads.patient.surgeryDuration->sum() <= maxCapacity
+
+// (H5): Mandatory patients must be admitted
+context Patient inv:
+     mandatory and not isOccupant implies not firstWorkload.opTime.oclIsUndefinied()
+context Patient inv:
+     mandatory implies not firstWorkload.shift.oclIsUndefined()
+
+// (H6*): Admission day
+context Patient inv:
+    if not firstWorkload.opTime.oclIsUndefined() then earliestDay <= firstWorkload.opTime.day <= dueDay
+
+// (H7): Room capacity
+context Shift inv:
+    shiftNo mod 3 = 0 implies workloads->size() <= room.beds
+
+// (H8): Nurse presence in non-empty rooms (and no nurse presence in empty rooms)
+context Shift inv:
+    workloads->isEmpty() = roster.oclIsUndefined()

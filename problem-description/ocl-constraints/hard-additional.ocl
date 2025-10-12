@@ -1,0 +1,20 @@
+// (C1): Consistent room for a patient (*) and all workloads have to be assigned
+context Workload inv:
+    next.shift.oclIsUndefined() = (next.oclIsUndefined() or shift.next.oclIsUndefined() or shift.oclIsUndefined())
+
+// (C6): OT only for scheduled surgeons
+context OpTime inv:
+    workloads->isEmpty() implies capacities->isEmpty()
+
+// (C7): A patient with a surgery is assigned to exactly one compatible operation theater
+context Patient inv:
+    not firstWorkload.opTime.oclIsUndefined() implies firstWorkload.opTime.capacities->includes(firstWorkload.capacity)
+
+// (C8): The day the first workload of a patient gets scheduled has to be the same day the patient has surgery
+context Patient inv:
+    (not isOccupant && not firstWorkload.shift.oclIsUndefined()) implies firstWorkload.shift.shiftNo / 3 = firstWorkload.opTime.day
+context Patient inv:
+    not firstWorkload.opTime.oclIsUndefined() implies not firstWorkload.shift.oclIsUndefined()
+
+context Patient inv:
+    firstWorkload.opTime.oclIsUndefined() = firstWorkload.shift.oclIsUndefined()

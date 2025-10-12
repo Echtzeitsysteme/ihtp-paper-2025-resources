@@ -1,0 +1,31 @@
+// (S1): Age groups
+context Shift min:
+    let ages = workloads.patient.ageGroup in if ages->isEmpty() then 0 else ages->max() - ages->min()
+
+// (S2): Minimum skill level
+context Workload min:
+     diff(self.minNurseSkill, shift.roster.nurse.skillLevel)
+
+// (S3): Continuity of care
+context Patient min:
+     workloads.shift.roster.nurse->asSet()->size()
+
+// (S4): Maximum workload
+context Roster min:
+   diff(shifts.workloads.workloadValue->sum(), maxWorkload)
+
+// (S5): Open OTs
+context OT min:
+    capacities->reject(workloads->isEmpty())->size()
+
+// (S6): Surgeon transfer
+context OpTime min:
+    capacities->size()
+
+// (S7): Admission delay
+context Patient min:
+    if firstWorkload.shift.oclIsUndefined() or isOccupant then 0 else firstWorkload.shift.shiftNo / 3 - self.earliestDay
+
+// (S8): Unscheduled patients
+context Patient min:
+    if not isOccupant and firstWorkload.opTime.oclIsUndefined() then 1 else 0

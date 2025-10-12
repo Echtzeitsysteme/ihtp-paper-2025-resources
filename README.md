@@ -4,9 +4,14 @@
 This repository holds the GIPS implementation projects and additional documentation for the Integrated Healthcare Timetabling Problem (IHTP) paper 2025.
 
 
+## Basic Modelling and Problem Description for the IHTP
+
+Our complete problem description and modelling approach of section 3 of the paper is documented in [problem-description.md](./problem-description/problem-description.md).
+
+
 ## Implementation
 
-The implementation described in the paper can be found in the folder [implementation](./implementation).
+The implementation described in section 4 and 5 of the paper can be found in the folder [implementation](./implementation).
 
 ### Setup
 

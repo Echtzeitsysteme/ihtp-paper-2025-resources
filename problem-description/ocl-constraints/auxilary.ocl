@@ -1,0 +1,15 @@
+set->max() :=
+    set->iterate(element:Integer; result: Integer = 0 | if element > result then element else result)
+
+set->min() :=
+    set->iterate(element:Integer; result: Integer = maxInt | if element < result then element else result)
+
+set->sum() :=
+    set->iterate(element:Integer; result: Integer = 0 | element + result)
+
+diff(x, y) :=
+    if x > y then x - y else 0
+
+// ??????
+context OclAny::oclIsDefined(): Boolean
+    post: result = not self.oclIsUndefined()
