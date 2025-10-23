@@ -9,7 +9,6 @@ context Patient inv:
 // (H3): No surgeon overtime
 context OpTime inv:
     workloads.patient.surgeryDuration->sum() <= maxOpTime
-    // MK: occupant -> surgeryDuration = 0
 
 // (H4): No OT overtime
 context Capacity inv:
@@ -17,13 +16,13 @@ context Capacity inv:
 
 // (H5): Mandatory patients must be admitted
 context Patient inv:
-     mandatory and not isOccupant implies not firstWorkload.opTime.oclIsUndefinied()
+     (mandatory and not isOccupant) implies firstWorkload.opTime.oclIsDefined()
 context Patient inv:
-     mandatory implies not firstWorkload.shift.oclIsUndefined()
+     mandatory implies firstWorkload.shift.oclIsDefined()
 
 // (H6*): Admission day
 context Patient inv:
-    if not firstWorkload.opTime.oclIsUndefined() then earliestDay <= firstWorkload.opTime.day <= dueDay
+    if firstWorkload.opTime.oclIsDefined() then (earliestDay <= firstWorkload.opTime.day and firstWorkload.opTime.day <= dueDay)
 
 // (H7): Room capacity
 context Shift inv:

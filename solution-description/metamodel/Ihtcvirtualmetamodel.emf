@@ -137,6 +137,7 @@ class VirtualWorkloadToCapacity {
 	attr boolean isSelected;
 	ref VirtualShiftToWorkload[*]#requires_virtualWorkloadToCapacity enables_virtualShiftToWorkload;
 	ref VirtualWorkloadToOpTime[*]#enables_virtual_WorkloadToCapacity requires_virtualWorkloadToOpTime;
+	ref VirtualOpTimeToCapacity[*] requires_virtualOpTimeToCapacity;
 }
 class Gender extends NamedElement {
 }
