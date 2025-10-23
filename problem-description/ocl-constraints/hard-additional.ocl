@@ -1,20 +1,42 @@
 // (C1): Consistent room for a patient (*) and all workloads have to be assigned
 context Workload inv:
-    next.shift.oclIsUndefined() = (next.oclIsUndefined() or shift.next.oclIsUndefined() or shift.oclIsUndefined())
+    (next.oclIsDefined() and shift.next.oclIsDefined())
+        = next.shift.oclIsDefined()
 
-// (C6): OT only for scheduled surgeons
+// (C2): OT only for scheduled surgeons
 context OpTime inv:
-    workloads->isEmpty() implies capacities->isEmpty()
+    workloads->isEmpty() = capacities->isEmpty()
 
-// (C7): A patient with a surgery is assigned to exactly one compatible operation theater
+// (C3): A patient with a surgery is assigned to one compatible operation theater
 context Patient inv:
-    not firstWorkload.opTime.oclIsUndefined() implies firstWorkload.opTime.capacities->includes(firstWorkload.capacity)
+    firstWorkload.opTime.oclIsDefined() implies firstWorkload.opTime.capacities->includes(firstWorkload.capacity)
 
-// (C8): The day the first workload of a patient gets scheduled has to be the same day the patient has surgery
+// (C4): The day the first workload of a patient gets scheduled has to be the same day the patient has surgery
 context Patient inv:
-    (not isOccupant && not firstWorkload.shift.oclIsUndefined()) implies firstWorkload.shift.shiftNo / 3 = firstWorkload.opTime.day
+    (not isOccupant and firstWorkload.shift.oclIsDefined()) implies firstWorkload.shift.shiftNo / 3 = firstWorkload.opTime.day
 context Patient inv:
-    not firstWorkload.opTime.oclIsUndefined() implies not firstWorkload.shift.oclIsUndefined()
+    firstWorkload.opTime.oclIsDefined() implies firstWorkload.shift.oclIsDefined()
 
+// All following constraints can be expressed via rule conditions
+// (C10): Checks the attribute constraint for OP and capacity assignments
+context OpTime inv:
+    capacities->forAll(c | c.day = day)
+
+// (C11): OpTime can only be assigned to a workload if it is the first workload of a patient
+context Workload inv:
+    opTime.oclIsDefined implies (patient.firstWorkload = self)
+// Surgeon must match
 context Patient inv:
-    firstWorkload.opTime.oclIsUndefined() = firstWorkload.shift.oclIsUndefined()
+    firstWorkload.opTime.oclIsDefined() implies (surgeon = firstWorkload.opTime.surgeon)
+
+// (C12): First shift assigned to the first workload of a patient must be an early shift
+context Patient inv:
+    firstWorkload.shift.shiftNo % 3 = 0
+
+// (C13): If the patient has an OP, the day of the first workload must match the OP's day
+context Patient inv:
+    firstWorkload.opTime.oclIsDefined() implies (firstWorkload.shift.shiftNo / 3 = firstWorkload.capacity.day)
+
+// (C14): Shift number of rosters and shift objects must match
+context Roster inv:
+    shifts.forAll(s | s.shiftNo = shiftNo)

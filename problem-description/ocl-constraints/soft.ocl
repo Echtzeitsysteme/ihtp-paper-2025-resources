@@ -4,7 +4,7 @@ context Shift min:
 
 // (S2): Minimum skill level
 context Workload min:
-     diff(self.minNurseSkill, shift.roster.nurse.skillLevel)
+     minNurseSkill.diff(shift.roster.nurse.skillLevel)
 
 // (S3): Continuity of care
 context Patient min:
@@ -12,7 +12,7 @@ context Patient min:
 
 // (S4): Maximum workload
 context Roster min:
-   diff(shifts.workloads.workloadValue->sum(), maxWorkload)
+   shifts.workloads.workloadValue->sum().diff(maxWorkload)
 
 // (S5): Open OTs
 context OT min:
@@ -24,7 +24,7 @@ context OpTime min:
 
 // (S7): Admission delay
 context Patient min:
-    if firstWorkload.shift.oclIsUndefined() or isOccupant then 0 else firstWorkload.shift.shiftNo / 3 - self.earliestDay
+    if firstWorkload.shift.oclIsUndefined() or isOccupant then 0 else firstWorkload.shift.shiftNo / 3 - earliestDay
 
 // (S8): Unscheduled patients
 context Patient min:
