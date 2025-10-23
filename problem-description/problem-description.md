@@ -1,7 +1,7 @@
-# Basic Modelling and Problem Description for the IHTP
+# Specifying the IHTP via Modelling
 
 This document refers to section 3 in the paper.
-The basic modelling and problem description of the IHTP consists of three parts: The *metamodel*, *OCL constraints*, and *GT rules*.
+The basic modelling and problem description of the IHTP consists of three parts: The *metamodel*, *OCL constraints*, and (domain) *GT rules*.
 
 
 ## Metamodel
@@ -21,9 +21,9 @@ This section contains all OCL constraints for section 3.2 in the paper.
 - The soft constraints (S1 to S8) in OCL can be found in [soft.ocl](./ocl-constraints/soft.ocl).
 
 
-## GT Rules
+## (Domain) GT Rules
 
-This section contains all GT rules for section 3.3 in the paper.
+This section contains all (domain) GT rules for section 3.3 in the paper.
 
 ![](./gt-rules/AssignPatientToRoom.svg)
 

@@ -38,8 +38,8 @@ The necessary steps to set up the implementation are listed below.
 | `gips.examples.dependencies` | Necessary dependencies, e.g., for the JSON-based import/export                 |
 | `ihtcvirtualgipssolution`    | GIPSL specification to solve the IHTP as described in section 4.3 of the paper |
 | `ihtvirtualmetamodel`        | Adapted metamodel project as described in section 4.1 of the paper             |
-| `ihtcvirtualpostprocessing`  | Model postprocessing with GT or Java                                           |
-| `ihtcvirtualpreprocessing`   | Model preprocessing with GT or Java as described in section 4.2 of the paper   |
+| `ihtcvirtualpostprocessing`  | Model post-processing with GT or Java                                          |
+| `ihtcvirtualpreprocessing`   | Model pre-processing with GT or Java as described in section 4.2 of the paper  |
 | `ihtcvirtualrunner`          | Java code to execute the pipeline as explained in section 4.4 of the paper     |
 
 
