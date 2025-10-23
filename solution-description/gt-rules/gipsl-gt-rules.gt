@@ -1,14 +1,5 @@
 // PRA.1: Rule that selects a VirtualShiftToWorkload-Node to be adopted in the final model.
 rule selectShiftToFirstWorkload {
-	p : Patient {
-		- firstWorkload -> w
-	}
-
-	w : Workload {
-		- virtualShift -> vsw
-		- virtualCapacity -> vwc
-	}
-
 	vwc : VirtualWorkloadToCapacity
 
 	vsw : VirtualShiftToWorkload {
@@ -29,7 +20,7 @@ rule selectExtendingShiftToFirstWorkload {
 	}
 }
 
-// PRA.3: Rule that selects all VirtualShiftToWorkload-Nodes to be adopted in the final model if they were imported (belong to an occupant).
+// PRA.3: Rule that selects all VirtualShiftToWorkload-Nodes to be adopted in the final model if they were imported (belong to an occupant)
 rule virtualNodesForOccupant {
 	vsw : VirtualShiftToWorkload {
 		.isSelected := true
@@ -43,43 +34,22 @@ rule virtualNodesForOccupant {
 // I. + II.: between the patient and opTime and between patient and capacity -> Selects a day and OT for the patient
 // III.: between opTime and Capacity to make sure the predefined surgeon of the patient is working in the correct OT on that day
 rule selectOperationDay {
-	p : Patient {
-		- firstWorkload -> w
-		- surgeon -> s
-	}
-
-	s : Surgeon {
-		- opTimes -> opTime
-	}
-
-	opTime : OpTime
-
-	w : Workload {
-		- virtualCapacity -> vwc
-		- virtualOpTime -> vwop
-	}
-
 	vwc : VirtualWorkloadToCapacity {
 		- requires_virtualWorkloadToOpTime -> vwop
-		- capacity -> c
 		.isSelected := true
+		- requires_virtualOpTimeToCapacity -> vopc
 	}
 
 	vwop : VirtualWorkloadToOpTime {
 		- requires_virtualOpTimeToCapacity -> vopc
 		- enables_virtual_WorkloadToCapacity -> vwc
 		.isSelected := true
-		- opTime -> opTime
 	}
 
 	vopc : VirtualOpTimeToCapacity {
 		- enables_virtualWorkloadToOpTime -> vwop
-		- capacity -> c
 		.isSelected := true
 	}
-
-	c : Capacity
-
 }
 
 // NPA: Rule that selects an  VirtualShiftToRoster-Node to be adopted in the final model.
