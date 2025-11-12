@@ -1,7 +1,9 @@
 # IHTP Paper 2025 Resources
 
 [**GIPS**](https://github.com/Echtzeitsysteme/gips) is an open-source framework for **G**raph-Based (M)**I**LP **P**roblem **S**pecification.
-This repository holds the GIPS implementation projects and additional documentation for the Integrated Healthcare Timetabling Problem (IHTP) paper 2025.
+This repository holds the GIPS implementation projects and additional documentation for the Integrated Healthcare Timetabling Problem (IHTP) paper 2025:
+
+> *High-Level Specification of MILP Problems with Class Diagrams and Graph Transformations: A Case Study in Model-Driven Optimisation of the Integrated Healthcare Timetabling Problem*. Maximilian Kratz, Jule Pfau, Steffen Zschaler, Jens Kosiol, and Andy Schürr. 2025.
 
 
 ## Basic Modelling and Problem Description for the IHTP
